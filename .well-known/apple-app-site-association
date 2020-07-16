@@ -1,0 +1,17 @@
+{
+    "webcredentials": {
+        "apps": [
+		"DJ2U3WGZB7.com.NYS.AppDemo",
+                "F9J739W8Y4.com.niyongsheng.daocaoduiapp"
+                ]
+    },
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "F9J739W8Y4.com.niyongsheng.daocaoduiapp",
+                "paths": [ "*" ]
+            }
+        ]
+    }
+}
