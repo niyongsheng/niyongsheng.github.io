@@ -1,0 +1,2 @@
+webpackJsonp([5],{XpTh:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("无权限页面")])},staticRenderFns:[]};var a=t("VU/8")({name:"noPermission"},r,!1,function(e){t("mYaB")},"data-v-54291411",null);n.default=a.exports},mYaB:function(e,n){}});
+//# sourceMappingURL=5.db7760b0264a57e8f3a8.js.map
