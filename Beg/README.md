@@ -1,28 +1,19 @@
-# Hi~
+![(logo)](https://github.com/niyongsheng/niyongsheng.github.io/blob/master/Beg/BLogo.png)
+I/O Beg
+===
 
-![Pages](https://img.shields.io/badge/My%20Pages-Developing-brightgreen.svg?style=flat-square)
+> 空谈误国，实干兴邦^^\
+> Talk is cheap,show me the code. -- Linus
 
-It's my code lab 🐶
-<!-- > Talk is cheap, show me the code. -- Linus -->
+## <a id="Support_QR_Code:"></a>Support QR Code:
+WechatPay | AliPay | PayPal
+------------ | ------------- | -------------
+<img src="https://github.com/niyongsheng/niyongsheng.github.io/blob/master/Beg/IMG_0885.JPG"> | <img src="https://github.com/niyongsheng/niyongsheng.github.io/blob/master/Beg/IMG_0886.jpeg"> | <img src="https://github.com/niyongsheng/niyongsheng.github.io/blob/master/logo.png">
 
-## Pages
-
-To see the [github-pages](https://niyongsheng.github.io) ⚾️
-
-## Contents
-
-- [vant_app](https://niyongsheng.github.io/phone_preview.html?url=https://niyongsheng.github.io/vant_app/#/)
-- [luck_draw](https://niyongsheng.github.io/luck_draw/)
-- [APPDownload](https://niyongsheng.github.io/APPDownload/)
-- [phone_preview](https://niyongsheng.github.io/phone_preview.html)
-
-<hr/>
-
-- [Document](https://github.com/niyongsheng/niyongsheng.github.io/tree/master/Document)
-	- [Logo](https://github.com/niyongsheng/niyongsheng.github.io/tree/master/Document/Logo)
-	- [AppDemoScreenshot](https://github.com/niyongsheng/niyongsheng.github.io/tree/master/Document/AppDemoScreenshot)
-- [.well-known](https://github.com/niyongsheng/niyongsheng.github.io/blob/master/.well-known/apple-app-site-association)
-- [Beg 🍭](https://github.com/niyongsheng/niyongsheng.github.io/tree/master/Beg)
+## Contact Me [:octocat:](https://niyongsheng.github.io)
+* Weibo: [@Ni永胜](https://weibo.com/u/2198015423)
+* E-mail: niyongsheng@Outlook.com
+* E-mail(standby): niyongsheng@Gmail.com
 
 ## License
 
