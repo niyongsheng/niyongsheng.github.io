@@ -22,7 +22,7 @@ To see the [github-pages](https://niyongsheng.github.io) ⚾️
 	- [Logo](https://github.com/niyongsheng/niyongsheng.github.io/tree/master/Document/Logo)
 	- [AppDemoScreenshot](https://github.com/niyongsheng/niyongsheng.github.io/tree/master/Document/AppDemoScreenshot)
 - [.well-known](https://github.com/niyongsheng/niyongsheng.github.io/blob/master/.well-known/apple-app-site-association)
-- [Beg](https://github.com/niyongsheng/niyongsheng.github.io/tree/master/Beg)
+- [Beg 🍭](https://github.com/niyongsheng/niyongsheng.github.io/tree/master/Beg)
 
 ## License
 
