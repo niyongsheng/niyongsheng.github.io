@@ -3,7 +3,7 @@ I/O Beg
 ===
 
 > 空谈误国，实干兴邦^^\
-> Talk is cheap,show me the code. -- Linus
+> Talk is cheap, Show me the code! -- Linus Torvalds
 
 ## <a id="Support_QR_Code:"></a>Support QR Code:
 WechatPay | AliPay | PayPal
