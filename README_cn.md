@@ -22,7 +22,9 @@
 
 ## Pages
 
-[![Product Name Screen Shot][product-screenshot]](https://niyongsheng.github.io)
+<a href="https://niyongsheng.github.io">
+  <img src="screenshot.png" alt="Project Screen Shot" width="auto" height="auto">
+</a>
 
 ## Contents
 
