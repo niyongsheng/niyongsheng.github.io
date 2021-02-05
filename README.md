@@ -22,10 +22,10 @@
 ## Pages
 
 <a href="https://niyongsheng.github.io">
-  <img src="screenshot.png" alt="Project Screen Shot" width="auto" height="auto" style="hover{border: 2px red solid;}">
+  <img src="screenshot.png" alt="Project Screen Shot" width="auto" height="auto" style="img:hover{border: 2px solid red;}">
 </a>
 
-## Contents
+## Projects
 
 ### web
 
@@ -62,7 +62,6 @@
     </li>
     <li><a href="https://github.com/niyongsheng/niyongsheng.github.io/blob/master/.well-known/apple-app-site-association">.well-known</a></li>
     <li><a href="https://github.com/niyongsheng/niyongsheng.github.io/tree/master/Beg">Beg 🍭</a></li>
-
   </ol>
 </details>
 
