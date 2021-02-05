@@ -22,7 +22,7 @@
 ## Pages
 
 <a href="https://niyongsheng.github.io">
-  <img src="screenshot.png" alt="Project Screen Shot" width="auto" height="auto">
+  <img src="screenshot.png" alt="Project Screen Shot" width="auto" height="auto" style="hover{border: 2px red solid;}">
 </a>
 
 ## Contents
@@ -36,7 +36,17 @@
 
 ### ios
 
+- [NYSTK](https://github.com/niyongsheng/NYSTK) (`ios colorful alert framework`)
+- [NYSKit](https://github.com/niyongsheng/NYSKit) (`Macros+BaseClass+Tool+Component IOS App Build Framework`)
+- [AppDemo](https://github.com/niyongsheng/AppDemo) (`ios project demo based on NYSKit`)
+- [TomCat](https://github.com/niyongsheng/TomCatGame) (`frame animation demo`)
+- [BreakoutGame](https://github.com/niyongsheng/BreakoutGame) (`Breakout clone game`)
+- [GuessFigure](https://github.com/niyongsheng/GuessFigureGame) (`An example of Guess Figure application`)
+- [NYSMC](https://github.com/niyongsheng/NYSMC) (`Auto Choose Sheel/Application framework`)
+
 ### java
+
+- [NYS_SSM](https://github.com/niyongsheng/NYS_SSM) (`Daocaodui spring project`)
 
 <hr/>
 
