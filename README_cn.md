@@ -1,4 +1,4 @@
-# 你好~
+# 您好~
 
 ![Pages](https://img.shields.io/badge/主页-持续开发中-brightgreen.svg?style=flat-square)
 
@@ -20,14 +20,14 @@
   </p>
 </p>
 
-## 主页
+## 我的主页
 
 <a href="https://niyongsheng.github.io">
   <img src="screenshot.png" align="center" alt="Project Screen Shot" width="360" height="200" style="img:hover{border: 2px solid red;}">
 </a>
 <a href="https://niyongsheng.github.io">https://niyongsheng.github.io</a>
 
-## 项目
+## 我的开源项目
 
 ### web
 
@@ -67,6 +67,6 @@
   </ol>
 </details>
 
-## 证书
+## 许可证书
 
 [MIT](LICENSE) © NYS
