@@ -2,7 +2,7 @@
 I/O Beg
 ===
 
-> 空谈误国，实干兴邦^^\
+> 空談誤國，實幹興邦^^\
 > Talk is cheap, Show me the code! -- Linus Torvalds
 
 ## <a id="Support_QR_Code:"></a>Support QR Code:

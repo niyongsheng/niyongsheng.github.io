@@ -1,6 +1,6 @@
-# Hi~
+# 你好~
 
-![Pages](https://img.shields.io/badge/My%20Pages-Developing-brightgreen.svg?style=flat-square)
+![Pages](https://img.shields.io/badge/主页-持续开发中-brightgreen.svg?style=flat-square)
 
 <br />
 <p align="center">
@@ -20,13 +20,14 @@
   </p>
 </p>
 
-## Pages
+## 主页
 
 <a href="https://niyongsheng.github.io">
-  <img src="screenshot.png" alt="Project Screen Shot" width="auto" height="auto" style="hover{border: 2px solid red;}">
+  <img src="screenshot.png" align="center" alt="Project Screen Shot" width="360" height="200" style="img:hover{border: 2px solid red;}">
 </a>
+<a href="https://niyongsheng.github.io">https://niyongsheng.github.io</a>
 
-## Projects
+## 项目
 
 ### web
 
@@ -52,7 +53,7 @@
 <hr/>
 
 <details open="open">
-  <summary>Table of Files</summary>
+  <summary>文件列表</summary>
   <ol>
     <li>
       <a href="https://github.com/niyongsheng/niyongsheng.github.io/tree/master/Document">Document</a>
@@ -66,6 +67,6 @@
   </ol>
 </details>
 
-## License
+## 证书
 
 [MIT](LICENSE) © NYS

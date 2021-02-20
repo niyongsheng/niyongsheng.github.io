@@ -22,8 +22,9 @@
 ## Pages
 
 <a href="https://niyongsheng.github.io">
-  <img src="screenshot.png" alt="Project Screen Shot" width="auto" height="auto" style="img:hover{border: 2px solid red;}">
+  <img src="screenshot.png" align="center" alt="Project Screen Shot" width="360" height="200" style="img:hover{border: 2px solid red;}">
 </a>
+<a href="https://niyongsheng.github.io">https://niyongsheng.github.io</a>
 
 ## Projects
 
