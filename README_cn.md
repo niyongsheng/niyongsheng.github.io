@@ -34,6 +34,7 @@
 - [vant_app](https://niyongsheng.github.io/phone_preview.html?url=https://niyongsheng.github.io/vant_app/#/) (`基于vant框架的vue应用模板`)
 - [luck_draw](https://niyongsheng.github.io/luck_draw/) (`高可用的幸运抽奖应用`)
 - [APPDownload](https://niyongsheng.github.io/APPDownload/) (`ipa包分发页面`)
+- [Daocaodui](https://niyongsheng.github.io/Daocaodui/APPDownload/) (`稻草堆App下载`)
 - [phone_preview](https://niyongsheng.github.io/phone_preview.html) (`可配置的手机应用预览网页'...?url=xxx'`)
 
 ### ios

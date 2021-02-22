@@ -33,6 +33,7 @@
 - [vant_app](https://niyongsheng.github.io/phone_preview.html?url=https://niyongsheng.github.io/vant_app/#/) (`vant app template`)
 - [luck_draw](https://niyongsheng.github.io/luck_draw/) (`Highly available raffle app`)
 - [APPDownload](https://niyongsheng.github.io/APPDownload/) (`ipa release`)
+- [Daocaodui](https://niyongsheng.github.io/Daocaodui/APPDownload/) (`app release`)
 - [phone_preview](https://niyongsheng.github.io/phone_preview.html) (`custom phone iframe '...?url=xxx'`)
 
 ### ios
