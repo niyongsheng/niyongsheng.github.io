@@ -9,7 +9,7 @@
   <h3 align="center">NYS</h3>
 
   <p align="center">
-    这是我的代码实验室 🐶
+    我的代码实验室 🐶
     <br />
     <a href="https://github.com/niyongsheng/niyongsheng.github.io/"><strong>文档 »</strong></a>
     <br />
@@ -20,14 +20,14 @@
   </p>
 </p>
 
-## 我的主页
+## 主页
 
 <a href="https://niyongsheng.github.io">
   <img src="screenshot.png" align="center" alt="Project Screen Shot" width="360" height="200" style="img:hover{border: 2px solid red;}">
 </a>
 <a href="https://niyongsheng.github.io">https://niyongsheng.github.io</a>
 
-## 我的开源项目
+<!-- ## 我的开源项目
 
 ### web
 
@@ -49,9 +49,9 @@
 
 ### java
 
-- [NYS_SSM](https://github.com/niyongsheng/NYS_SSM) (`稻草堆综合项目`)
+- [NYS_SSM](https://github.com/niyongsheng/NYS_SSM) (`稻草堆综合项目`) -->
 
-<hr/>
+## 资料
 
 <details open="open">
   <summary>文件列表</summary>
