@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>PointDirection Constants Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">NYSUIKit </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">NYS</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">PointDirection Constants Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>CMPopTipView.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+
+                    
+                    <h3 class="subsubtitle method-title">PointDirection</h3>
+                    
+					
+					
+                    <div class="section">
+                        <!-- display enum values -->
+                        
+                        <h4 class="method-subtitle">Definition</h4>
+                        <code>typedef NS_ENUM(NSInteger, PointDirection ) {<br>
+                            
+                            &nbsp;&nbsp; <a href="">PointDirectionAny</a> = 0,<br>
+                            
+                            &nbsp;&nbsp; <a href="">PointDirectionUp</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">PointDirectionDown</a>,<br>
+                            
+                            };</code>
+                    
+                    </div>
+                    
+                    <div class="section section-methods">
+                        <h4 class="method-subtitle">Constants</h4>
+                        <dl class="termdef">
+                            
+                            <dt><a name="" title="PointDirectionAny"></a><code>PointDirectionAny</code></dt>
+<dd>
+
+
+<p>Display a speech bubble-like popup on screen, pointing at the
+            designated view or button.</p>
+
+<pre><code>A UIView subclass drawn using core graphics. Pops up (optionally animated)
+a speech bubble-like view on screen, a rounded rectangle with a gradient
+fill containing a specified text message, drawn with a pointer dynamically
+positioned to point at the center of the designated button or view.
+</code></pre>
+
+<p>Example 1 - point at a UIBarButtonItem in a nav bar:</p>
+
+<pre><code>- (void)showPopTipView {
+    NSString *message = @"Start by adding a waterway to your favourites.";
+    CMPopTipView *popTipView = [[CMPopTipView alloc] initWithMessage:message];
+    popTipView.delegate = self;
+    [popTipView presentPointingAtBarButtonItem:self.navigationItem.rightBarButtonItem animated:YES];
+
+    self.myPopTipView = popTipView;
+    [popTipView release];
+}
+
+- (void)dismissPopTipView {
+    [self.myPopTipView dismissAnimated:NO];
+    self.myPopTipView = nil;
+}
+
+
+#pragma mark CMPopTipViewDelegate methods
+- (void)popTipViewWasDismissedByUser:(CMPopTipView *)popTipView {
+    // User can tap CMPopTipView to dismiss it
+    self.myPopTipView = nil;
+}
+</code></pre>
+
+<p>Example 2 - pointing at a UIButton:</p>
+
+<pre><code>- (IBAction)buttonAction:(id)sender {
+    // Toggle popTipView when a standard UIButton is pressed
+    if (nil == self.roundRectButtonPopTipView) {
+        self.roundRectButtonPopTipView = [[[CMPopTipView alloc] initWithMessage:@"My message"] autorelease];
+        self.roundRectButtonPopTipView.delegate = self;
+
+        UIButton *button = (UIButton *)sender;
+        [self.roundRectButtonPopTipView presentPointingAtView:button inView:self.view animated:YES];
+    }
+    else {
+        // Dismiss
+        [self.roundRectButtonPopTipView dismissAnimated:YES];
+        self.roundRectButtonPopTipView = nil;
+    }
+}
+
+#pragma mark CMPopTipViewDelegate methods
+- (void)popTipViewWasDismissedByUser:(CMPopTipView *)popTipView {
+    // User can tap CMPopTipView to dismiss it
+    self.roundRectButtonPopTipView = nil;
+}
+</code></pre>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CMPopTipView.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="PointDirectionUp"></a><code>PointDirectionUp</code></dt>
+<dd>
+
+
+<p>Display a speech bubble-like popup on screen, pointing at the
+            designated view or button.</p>
+
+<pre><code>A UIView subclass drawn using core graphics. Pops up (optionally animated)
+a speech bubble-like view on screen, a rounded rectangle with a gradient
+fill containing a specified text message, drawn with a pointer dynamically
+positioned to point at the center of the designated button or view.
+</code></pre>
+
+<p>Example 1 - point at a UIBarButtonItem in a nav bar:</p>
+
+<pre><code>- (void)showPopTipView {
+    NSString *message = @"Start by adding a waterway to your favourites.";
+    CMPopTipView *popTipView = [[CMPopTipView alloc] initWithMessage:message];
+    popTipView.delegate = self;
+    [popTipView presentPointingAtBarButtonItem:self.navigationItem.rightBarButtonItem animated:YES];
+
+    self.myPopTipView = popTipView;
+    [popTipView release];
+}
+
+- (void)dismissPopTipView {
+    [self.myPopTipView dismissAnimated:NO];
+    self.myPopTipView = nil;
+}
+
+
+#pragma mark CMPopTipViewDelegate methods
+- (void)popTipViewWasDismissedByUser:(CMPopTipView *)popTipView {
+    // User can tap CMPopTipView to dismiss it
+    self.myPopTipView = nil;
+}
+</code></pre>
+
+<p>Example 2 - pointing at a UIButton:</p>
+
+<pre><code>- (IBAction)buttonAction:(id)sender {
+    // Toggle popTipView when a standard UIButton is pressed
+    if (nil == self.roundRectButtonPopTipView) {
+        self.roundRectButtonPopTipView = [[[CMPopTipView alloc] initWithMessage:@"My message"] autorelease];
+        self.roundRectButtonPopTipView.delegate = self;
+
+        UIButton *button = (UIButton *)sender;
+        [self.roundRectButtonPopTipView presentPointingAtView:button inView:self.view animated:YES];
+    }
+    else {
+        // Dismiss
+        [self.roundRectButtonPopTipView dismissAnimated:YES];
+        self.roundRectButtonPopTipView = nil;
+    }
+}
+
+#pragma mark CMPopTipViewDelegate methods
+- (void)popTipViewWasDismissedByUser:(CMPopTipView *)popTipView {
+    // User can tap CMPopTipView to dismiss it
+    self.roundRectButtonPopTipView = nil;
+}
+</code></pre>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CMPopTipView.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="PointDirectionDown"></a><code>PointDirectionDown</code></dt>
+<dd>
+
+
+<p>Display a speech bubble-like popup on screen, pointing at the
+            designated view or button.</p>
+
+<pre><code>A UIView subclass drawn using core graphics. Pops up (optionally animated)
+a speech bubble-like view on screen, a rounded rectangle with a gradient
+fill containing a specified text message, drawn with a pointer dynamically
+positioned to point at the center of the designated button or view.
+</code></pre>
+
+<p>Example 1 - point at a UIBarButtonItem in a nav bar:</p>
+
+<pre><code>- (void)showPopTipView {
+    NSString *message = @"Start by adding a waterway to your favourites.";
+    CMPopTipView *popTipView = [[CMPopTipView alloc] initWithMessage:message];
+    popTipView.delegate = self;
+    [popTipView presentPointingAtBarButtonItem:self.navigationItem.rightBarButtonItem animated:YES];
+
+    self.myPopTipView = popTipView;
+    [popTipView release];
+}
+
+- (void)dismissPopTipView {
+    [self.myPopTipView dismissAnimated:NO];
+    self.myPopTipView = nil;
+}
+
+
+#pragma mark CMPopTipViewDelegate methods
+- (void)popTipViewWasDismissedByUser:(CMPopTipView *)popTipView {
+    // User can tap CMPopTipView to dismiss it
+    self.myPopTipView = nil;
+}
+</code></pre>
+
+<p>Example 2 - pointing at a UIButton:</p>
+
+<pre><code>- (IBAction)buttonAction:(id)sender {
+    // Toggle popTipView when a standard UIButton is pressed
+    if (nil == self.roundRectButtonPopTipView) {
+        self.roundRectButtonPopTipView = [[[CMPopTipView alloc] initWithMessage:@"My message"] autorelease];
+        self.roundRectButtonPopTipView.delegate = self;
+
+        UIButton *button = (UIButton *)sender;
+        [self.roundRectButtonPopTipView presentPointingAtView:button inView:self.view animated:YES];
+    }
+    else {
+        // Dismiss
+        [self.roundRectButtonPopTipView dismissAnimated:YES];
+        self.roundRectButtonPopTipView = nil;
+    }
+}
+
+#pragma mark CMPopTipViewDelegate methods
+- (void)popTipViewWasDismissedByUser:(CMPopTipView *)popTipView {
+    // User can tap CMPopTipView to dismiss it
+    self.roundRectButtonPopTipView = nil;
+}
+</code></pre>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">CMPopTipView.h</code>.
+	</p>
+	
+</dd>
+                            
+                        </dl>
+                    </div>
+                    
+
+                    
+                    
+
+                    
+
+                    
+                    <div class="method-subsection declared-in-section">
+                        <h4 class="method-subtitle">Declared In</h4>
+                        <p><code class="declared-in-ref">CMPopTipView.h</code></p>
+                    </div>
+                    
+                    
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2024 NYS. All rights reserved. Updated: 2024-01-23</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
