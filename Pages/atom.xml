@@ -3,11 +3,11 @@
   <title>思考的咸鱼</title>
   
   
-  <link href="https://niyongsheng.github.io/atom.xml" rel="self"/>
+  <link href="https://niyongsheng.github.io/Pages/atom.xml" rel="self"/>
   
-  <link href="https://niyongsheng.github.io/"/>
+  <link href="https://niyongsheng.github.io/Pages/"/>
   <updated>2024-04-01T10:55:31.182Z</updated>
-  <id>https://niyongsheng.github.io/</id>
+  <id>https://niyongsheng.github.io/Pages/</id>
   
   <author>
     <name>Nico</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>I’2023</title>
-    <link href="https://niyongsheng.github.io/2024/02/07/I%E2%80%992023/"/>
-    <id>https://niyongsheng.github.io/2024/02/07/I%E2%80%992023/</id>
+    <link href="https://niyongsheng.github.io/Pages/2024/02/07/I%E2%80%992023/"/>
+    <id>https://niyongsheng.github.io/Pages/2024/02/07/I%E2%80%992023/</id>
     <published>2024-02-07T08:56:05.000Z</published>
     <updated>2024-04-01T10:55:31.182Z</updated>
     
@@ -41,8 +41,8 @@
   
   <entry>
     <title>开源库</title>
-    <link href="https://niyongsheng.github.io/2021/11/29/%E5%BC%80%E6%BA%90%E5%BA%93/"/>
-    <id>https://niyongsheng.github.io/2021/11/29/%E5%BC%80%E6%BA%90%E5%BA%93/</id>
+    <link href="https://niyongsheng.github.io/Pages/2021/11/29/%E5%BC%80%E6%BA%90%E5%BA%93/"/>
+    <id>https://niyongsheng.github.io/Pages/2021/11/29/%E5%BC%80%E6%BA%90%E5%BA%93/</id>
     <published>2021-11-29T09:50:00.000Z</published>
     <updated>2024-04-01T10:56:00.879Z</updated>
     
@@ -62,8 +62,8 @@
   
   <entry>
     <title>荐物志</title>
-    <link href="https://niyongsheng.github.io/2020/11/01/%E8%8D%90%E7%89%A9%E5%BF%97/"/>
-    <id>https://niyongsheng.github.io/2020/11/01/%E8%8D%90%E7%89%A9%E5%BF%97/</id>
+    <link href="https://niyongsheng.github.io/Pages/2020/11/01/%E8%8D%90%E7%89%A9%E5%BF%97/"/>
+    <id>https://niyongsheng.github.io/Pages/2020/11/01/%E8%8D%90%E7%89%A9%E5%BF%97/</id>
     <published>2020-11-01T04:55:09.000Z</published>
     <updated>2024-04-01T10:03:43.582Z</updated>
     
@@ -86,8 +86,8 @@
   
   <entry>
     <title>Hexo-Keep</title>
-    <link href="https://niyongsheng.github.io/2020/03/22/Hexo-Keep/"/>
-    <id>https://niyongsheng.github.io/2020/03/22/Hexo-Keep/</id>
+    <link href="https://niyongsheng.github.io/Pages/2020/03/22/Hexo-Keep/"/>
+    <id>https://niyongsheng.github.io/Pages/2020/03/22/Hexo-Keep/</id>
     <published>2020-03-22T13:22:16.000Z</published>
     <updated>2024-04-01T10:56:24.298Z</updated>
     
