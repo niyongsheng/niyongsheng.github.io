@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>思考的咸鱼</title>
+  
+  
+  <link href="https://niyongsheng.github.io/Pages/atom.xml" rel="self"/>
+  
+  <link href="https://niyongsheng.github.io/Pages/"/>
+  <updated>2024-04-01T10:55:31.182Z</updated>
+  <id>https://niyongsheng.github.io/Pages/</id>
+  
+  <author>
+    <name>Nico</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>I’2023</title>
+    <link href="https://niyongsheng.github.io/Pages/2024/02/07/I%E2%80%992023/"/>
+    <id>https://niyongsheng.github.io/Pages/2024/02/07/I%E2%80%992023/</id>
+    <published>2024-02-07T08:56:05.000Z</published>
+    <updated>2024-04-01T10:55:31.182Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>写于：2024年2月7日 16时</p></blockquote><p>极近农历新年的午后最后一个工作日的格子间里，commit完新版本代码后打算写下过去一年的感想。给gpt3提供了读书笔记和零碎的备忘录信息后，LLM给我生成的几个版本都没能让我满意，看来OpenAI还得继续迭代，也可能是付不起gpt4订阅费的贫困限制了我的想象力。</p><p>生活在后疫情时代的每个人都应该对自由和健康有过思考，人们没有明确的意志倾向，有的只是市井的精明和盲目。我们中的大部分人都像巴菲特说的一样中了卵巢彩票伴随着城市化的洪流进入城市，住到了自己童年期待的地方，甚至还赚到了比较体面的工资，可以随意购买小时候期待的零食和玩具。可是我并不觉得自己富有，更不会觉得生活自由。抬头往上看，头顶还有数不清的社会阶梯要爬，自己一辈子的努力，也许只是可以远眺一下别人的起点。爬不动社会阶梯，很多人选择躺平，希望社会发展带着自己一起进步，躺平选项是社会的成功，也是个人的悲哀。</p><p>中国几乎在一代人之内完成了工业化和城市化，上升期的社会是最好的社会安定剂。发展快当然是好事儿，但是也有副作用，思想观念的更新跟不上物质条件的进步。当低垂的果实被采摘殆尽，社会矛盾再次激化凸显。山河四省、生育率下滑、经济失速，对施政、投资、分配的效率和精准性都提出了更高的要求。当下中国的任何一个难题如果说谁有标准答案那他大概率还没有理解问题，发展中遇到的问题，只能在发展中解决。只有触及灵魂的改革才会持续释放更大的潜能。</p><p>一个人语言的边界即是他世界的边界。维根斯坦的这一观点提醒我们语言是认知的一部分，它不仅反映了我们的思维方式，也塑造了我们的思维和对世界的看法。深刻理解这一关系对于高效沟通、文化融合、技术进步以及维护共识至关重要。大语言模型的松散性解构了现实空间和赛博空间的边界，但基于概率的模型无法精准表达物理定律，世界模型还需要新的理论突破。令人欣慰的是科技进步依然是我们这个社会进步的第一原动力。</p><p>年末高速飞行了46年的旅行者1号已经不能正常返回数据，旅行者号尽管是NASA发射和运营的，但那个年代，突飞猛进的太空技术让当时的参与者都怀着全人类的视角和情怀。今天这种人类大同的情绪也随着旅行者号的远去而消散。未来，也许战争还会持续，也许技术带来的冲击还会更加剧烈，也许人类物种并没有像马斯克预想的那样移民火星，也许人类自始至终都没能离开地球，但我们已经在1977年的时候，向宇宙证明了人类曾经存在过。希望这次由商业航天开启的探空浪潮可以持续的更久一些，更远一点，不论是以碳基还是硅基的形式。</p><p>此刻如果给我一台时间机器，我会回到2001年找到十岁的自己，告诉他，我已经一步步走到了他希冀的现代社会。就像巴鲁，最终到达了天空之城，甚至触摸到了一些拉普达式的科技。十岁的我肯定也会反问未来的自己，现代社会还有没有烦恼，会不会怀念曾经的童年生活？我会告诉他真实的答案，现在生活也不完美，也有烦恼和生活压力，让我经常怀旧。但是这些新问题和当年的失落感一样，是进步的副产品，是成长必须付出的代价。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;写于：2024年2月7日 16时&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;极近农历新年的午后最后一个工作日的格子间里，commit完新版本代码后打算写下过去一年的感想。给gpt3提供了读书笔记和零碎的备忘录信息后，LLM给我生成的几个版本都没能让</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>开源库</title>
+    <link href="https://niyongsheng.github.io/Pages/2021/11/29/%E5%BC%80%E6%BA%90%E5%BA%93/"/>
+    <id>https://niyongsheng.github.io/Pages/2021/11/29/%E5%BC%80%E6%BA%90%E5%BA%93/</id>
+    <published>2021-11-29T09:50:00.000Z</published>
+    <updated>2024-04-01T10:56:00.879Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Opensource projects on GitHub by <a class="link"   href="https://github.com/niyongsheng" >NYS<i class="fas fa-external-link-alt"></i></a></p></blockquote><hr><h3 id="JAVA"><a href="#JAVA" class="headerlink" title="JAVA"></a>JAVA</h3><ul><li><a class="link"   href="https://github.com/niyongsheng/SmartPacker" >SmartPacker<i class="fas fa-external-link-alt"></i></a> (<code>智能装箱算法，开发中...</code>)</li></ul><h3 id="VUE"><a href="#VUE" class="headerlink" title="VUE"></a>VUE</h3><ul><li><a class="link"   href="https://github.com/niyongsheng/LuckyDraw" >luck_draw<i class="fas fa-external-link-alt"></i></a> (<code>auto draw web app/Vue抽奖</code>)</li></ul><h3 id="IOS"><a href="#IOS" class="headerlink" title="IOS"></a>IOS</h3><ul><li><a class="link"   href="https://github.com/niyongsheng/NYSKit" >NYSKit<i class="fas fa-external-link-alt"></i></a> (<code>ios组件化框架</code>)</li></ul><h3 id="MAC"><a href="#MAC" class="headerlink" title="MAC"></a>MAC</h3><ul><li><a class="link"   href="https://github.com/niyongsheng/EasyRelease" >EasyRelease<i class="fas fa-external-link-alt"></i></a> (<code>xcode更名混淆工具</code>)</li><li><a class="link"   href="https://github.com/niyongsheng/JsonModelFactory" >JsonModelFactory<i class="fas fa-external-link-alt"></i></a> (<code>json转模型工具</code>)</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Opensource projects on GitHub by &lt;a class=&quot;link&quot;   href=&quot;https://github.com/niyongsheng&quot; &gt;NYS&lt;i class=&quot;fas fa-external-link-</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>荐物志</title>
+    <link href="https://niyongsheng.github.io/Pages/2020/11/01/%E8%8D%90%E7%89%A9%E5%BF%97/"/>
+    <id>https://niyongsheng.github.io/Pages/2020/11/01/%E8%8D%90%E7%89%A9%E5%BF%97/</id>
+    <published>2020-11-01T04:55:09.000Z</published>
+    <updated>2024-04-01T10:03:43.582Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>君子生非异也，善假于物也。—— 荀子《劝学》</p></blockquote><h2 id="Mac"><a href="#Mac" class="headerlink" title="Mac"></a>Mac</h2><ul><li><p><a class="link"   href="https://iterm2.com/" >Iterm2<i class="fas fa-external-link-alt"></i></a> (<code>插件丰富的生产力工具</code>) ✩✩✩✩✩</p></li><li><p><a class="link"   href="https://www.notion.so/" >Notion<i class="fas fa-external-link-alt"></i></a> (<code>强大的笔记软件</code>) ✩✩✩✩✩</p></li><li><p><a class="link"   href="https://www.sublimetext.com/" >Sublime<i class="fas fa-external-link-alt"></i></a> (<code>万能编辑器</code>) ✩✩✩✩✩</p></li><li><p><a class="link"   href="https://github.com/Clipy/Clipy/releases" >Clipy<i class="fas fa-external-link-alt"></i></a> (<code>历史剪切板工具</code>) ✩✩✩</p></li><li><p><a class="link"   href="https://sipapp.io/" >Sip<i class="fas fa-external-link-alt"></i></a> (<code>前端必备的取色工具</code>) ✩✩✩✩</p></li><li><p><a class="link"   href="https://www.panic.com/transmit/" >Transmit<i class="fas fa-external-link-alt"></i></a> (<code>FTP工具</code>) ✩✩✩✩✩</p></li><li><p><a class="link"   href="https://www.anaconda.com/" >Anaconda<i class="fas fa-external-link-alt"></i></a> (<code>python环境管理器</code>) ✩✩✩✩</p></li><li><p><a class="link"   href="http://www.hostbuf.com/downloads/finalshell_install.sh" >FinalShell<i class="fas fa-external-link-alt"></i></a> (<code>服务器管理工具</code>) ✩✩✩✩✩</p></li><li><p><a class="link"   href="https://apps.apple.com/us/app/sitesucker/id442168834" >SiteSucker<i class="fas fa-external-link-alt"></i></a> (<code>网站打包下载工具</code>) ✩✩✩</p></li><li><p><a class="link"   href="https://giphy.com/apps/giphycapture" >GIPHY CAPTURE<i class="fas fa-external-link-alt"></i></a> (<code>gif录屏工具</code>) ✩✩✩✩</p></li><li><p><a class="link"   href="https://www.axure.com/" >Axure RP<i class="fas fa-external-link-alt"></i></a> (<code>原型设计软件</code>) ✩✩✩✩</p></li><li><p><a class="link"   href="https://boxy-svg.en.softonic.com/mac/download" >Boxy SVG<i class="fas fa-external-link-alt"></i></a> (<code>SVG编辑器</code>) ✩✩</p></li><li><p><a class="link"   href="https://quartzcodeapp.com/" >QuartzCode<i class="fas fa-external-link-alt"></i></a> (<code>核心动画编辑器</code>) ✩✩✩✩</p></li><li><p><a class="link"   href="https://www.charlesproxy.com/" >charles<i class="fas fa-external-link-alt"></i></a> (<code>抓包工具</code>) ✩✩✩✩✩</p></li><li><p><a class="link"   href="https://v2.suda.moe/auth/register?code=yG5C" >ClashX<i class="fas fa-external-link-alt"></i></a> (<code>科学上网</code>) ✩✩✩✩✩</p></li><li><p><a class="link"   href="https://cleanmymac.com/" >CleanMyMac<i class="fas fa-external-link-alt"></i></a> (<code>Mac好帮手</code>) ✩✩✩✩</p></li><li><p><a class="link"   href="https://localsend.org/#/" >LocalSend<i class="fas fa-external-link-alt"></i></a> (<code>Airdrop平替</code>) ✩✩✩✩✩</p></li><li><p><a class="link"   href="https://netnewswire.com/" >NetNewsWire<i class="fas fa-external-link-alt"></i></a> (<code>RSS</code>) ✩✩✩✩✩</p></li></ul><h2 id="Web"><a href="#Web" class="headerlink" title="Web"></a>Web</h2><ul><li><a class="link"   href="https://tools.fun/index.html" >ToolsFun<i class="fas fa-external-link-alt"></i></a> (<code>在线工具箱</code>) ✩✩✩✩✩</li><li><a class="link"   href="https://www.perplexity.ai/" >Perplexity<i class="fas fa-external-link-alt"></i></a> (<code>AI Google</code>) ✩✩✩✩✩</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;君子生非异也，善假于物也。—— 荀子《劝学》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;Mac&quot;&gt;&lt;a href=&quot;#Mac&quot; class=&quot;headerlink&quot; title=&quot;Mac&quot;&gt;&lt;/a&gt;Mac&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-Keep</title>
+    <link href="https://niyongsheng.github.io/Pages/2020/03/22/Hexo-Keep/"/>
+    <id>https://niyongsheng.github.io/Pages/2020/03/22/Hexo-Keep/</id>
+    <published>2020-03-22T13:22:16.000Z</published>
+    <updated>2024-04-01T10:56:24.298Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to my blog by <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! If you want to have your own blog space, this article will teach it.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="1-安装Hexo"><a href="#1-安装Hexo" class="headerlink" title="1.安装Hexo"></a>1.安装Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure><h3 id="2-初始化博客"><a href="#2-初始化博客" class="headerlink" title="2.初始化博客"></a>2.初始化博客</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog</span><br></pre></td></tr></table></figure><h3 id="3-安装keep主题"><a href="#3-安装keep主题" class="headerlink" title="3.安装keep主题"></a>3.安装keep主题</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ npm install hexo-theme-keep</span><br><span class="line">$ npm update hexo-theme-keep // 更新主题</span><br></pre></td></tr></table></figure><h3 id="4-配置主题"><a href="#4-配置主题" class="headerlink" title="4.配置主题"></a>4.配置主题</h3><p>blog/source/_data/keep.yml</p><p><a class="link"   href="https://keep-docs.xpoet.cn/basis/get-start/starter-template.html" >https://keep-docs.xpoet.cn/basis/get-start/starter-template.html<i class="fas fa-external-link-alt"></i></a></p><h3 id="5-插件"><a href="#5-插件" class="headerlink" title="5.插件"></a>5.插件</h3><h4 id="5-1搜索插件"><a href="#5-1搜索插件" class="headerlink" title="5.1搜索插件"></a>5.1搜索插件</h4><ul><li>More info: <a class="link"   href="https://github.com/theme-next/hexo-generator-searchdb" >Search<i class="fas fa-external-link-alt"></i></a><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-searchdb</span><br><span class="line">// 在 Hexo 配置文件 _config.yml 里添加如下配置</span><br><span class="line">search:</span><br><span class="line">  path: search.json</span><br><span class="line">  field: post</span><br><span class="line">  content: <span class="literal">true</span></span><br><span class="line">  format: striptags</span><br></pre></td></tr></table></figure></li></ul><h4 id="5-2评论插件Gitalk"><a href="#5-2评论插件Gitalk" class="headerlink" title="5.2评论插件Gitalk"></a>5.2评论插件Gitalk</h4><ul><li>More info: <a class="link"   href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md" >Gitalk<i class="fas fa-external-link-alt"></i></a>  </li></ul><h3 id="6-创建文章"><a href="#6-创建文章" class="headerlink" title="6.创建文章"></a>6.创建文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;Hexo-Keep&quot;</span></span><br></pre></td></tr></table></figure><h3 id="7-启动服务预览"><a href="#7-启动服务预览" class="headerlink" title="7.启动服务预览"></a>7.启动服务预览</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><h3 id="8-生成静态文件"><a href="#8-生成静态文件" class="headerlink" title="8.生成静态文件"></a>8.生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><h3 id="9-提交GitHub-Pages"><a href="#9-提交GitHub-Pages" class="headerlink" title="9.提交GitHub Pages"></a>9.提交GitHub Pages</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git commit</span><br></pre></td></tr></table></figure><h3 id="参考链接"><a href="#参考链接" class="headerlink" title="[参考链接]:"></a>[参考链接]:</h3><p><a class="link"   href="https://hexo.io/" >https://hexo.io<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://keep-docs.xpoet.cn/" >https://keep-docs.xpoet.cn<i class="fas fa-external-link-alt"></i></a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to my blog by &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;! If you want to have yo</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
