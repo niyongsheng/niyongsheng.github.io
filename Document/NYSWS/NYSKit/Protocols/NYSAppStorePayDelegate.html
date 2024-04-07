@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>NYSBaseTabBarController Class Reference</title>
+	<title>NYSAppStorePayDelegate Protocol Reference</title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">NYSUIKit </a>
+				<a href="../index.html">NYSKit </a>
 			</h1>
 
 			<p id="developer-home">
@@ -52,19 +52,17 @@
 
 	
 	
-	<optgroup label="Properties">
+
+	
+
+	
+	<optgroup label="Instance Methods">
 		
-		<option value="//api/name/isOpenGradualAnimation">isOpenGradualAnimation</option>
+		<option value="//api/name/NYSAppStorePay:responseAppStorePayStatusshow:error:">- NYSAppStorePay:responseAppStorePayStatusshow:error:</option>
 		
-		<option value="//api/name/isResetTabBarItemStyle">isResetTabBarItemStyle</option>
-		
-		<option value="//api/name/tabBarInteractionEffectStyle">tabBarInteractionEffectStyle</option>
+		<option value="//api/name/NYSAppStorePay:responseAppStorePaySuccess:error:">- NYSAppStorePay:responseAppStorePaySuccess:error:</option>
 		
 	</optgroup>
-	
-
-	
-
 	
 	
 </select>
@@ -79,16 +77,16 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">NYSBaseTabBarController Class Reference</h1>
+					<h1 class="title">NYSAppStorePayDelegate Protocol Reference</h1>
 
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
-	<th>Inherits from</th>
-	<td>UITabBarController</td>
+	<th>Conforms to</th>
+	<td>NSObject</td>
 </tr><tr>
 	<th>Declared in</th>
-	<td>NYSBaseTabBarController.h<br />NYSBaseTabBarController.m</td>
+	<td>NYSAppStorePay.h</td>
 </tr>
 						</tbody></table></div>
 					
@@ -106,8 +104,8 @@
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/tabBarInteractionEffectStyle" title="tabBarInteractionEffectStyle"></a>
-	<h3 class="method-title"><code><a href="#//api/name/tabBarInteractionEffectStyle">&nbsp;&nbsp;tabBarInteractionEffectStyle</a></code>
+	<a name="//api/name/NYSAppStorePay:responseAppStorePaySuccess:error:" title="NYSAppStorePay:responseAppStorePaySuccess:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/NYSAppStorePay:responseAppStorePaySuccess:error:">&ndash;&nbsp;NYSAppStorePay:responseAppStorePaySuccess:error:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -117,14 +115,36 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>点击动画类型</p>
+				<p>内购支付成功回调</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) NYSBaseTabBarInteractionEffectStyle tabBarInteractionEffectStyle</code></div>
+			<div class="method-subsection method-declaration"><code>- (void)NYSAppStorePay:(NYSAppStorePay *)<em>appStorePay</em> responseAppStorePaySuccess:(NSDictionary *)<em>dicValue</em> error:(NSError *)<em>error</em></code></div>
 
 		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>appStorePay</code></th>
+						<td><p>当前类</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>dicValue</code></th>
+						<td><p>返回值</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>错误信息</p></td>
+					</tr>
+				
+				</table>
+			</div>
 			
 
 			
@@ -134,7 +154,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>点击动画类型</p>
+				<p>内购支付成功回调</p>
 			</div>
 			
 
@@ -145,15 +165,15 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">NYSBaseTabBarController.h</code></p>
+				<p><code class="declared-in-ref">NYSAppStorePay.h</code></p>
 			</div>
 			
 			
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/isOpenGradualAnimation" title="isOpenGradualAnimation"></a>
-	<h3 class="method-title"><code><a href="#//api/name/isOpenGradualAnimation">&nbsp;&nbsp;isOpenGradualAnimation</a></code>
+	<a name="//api/name/NYSAppStorePay:responseAppStorePayStatusshow:error:" title="NYSAppStorePay:responseAppStorePayStatusshow:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/NYSAppStorePay:responseAppStorePayStatusshow:error:">&ndash;&nbsp;NYSAppStorePay:responseAppStorePayStatusshow:error:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -163,14 +183,36 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>是否启用渐变切换</p>
+				<p>内购支付结果回调提示</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL isOpenGradualAnimation</code></div>
+			<div class="method-subsection method-declaration"><code>- (void)NYSAppStorePay:(NYSAppStorePay *)<em>appStorePay</em> responseAppStorePayStatusshow:(NSDictionary *)<em>dicValue</em> error:(NSError *)<em>error</em></code></div>
 
 		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>appStorePay</code></th>
+						<td><p>当前类</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>dicValue</code></th>
+						<td><p>返回值</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>错误信息</p></td>
+					</tr>
+				
+				</table>
+			</div>
 			
 
 			
@@ -180,7 +222,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>是否启用渐变切换</p>
+				<p>内购支付结果回调提示</p>
 			</div>
 			
 
@@ -191,53 +233,7 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">NYSBaseTabBarController.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/isResetTabBarItemStyle" title="isResetTabBarItemStyle"></a>
-	<h3 class="method-title"><code><a href="#//api/name/isResetTabBarItemStyle">&nbsp;&nbsp;isResetTabBarItemStyle</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>是否重置tabBarItem样式</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL isResetTabBarItemStyle</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>是否重置tabBarItem样式</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">NYSBaseTabBarController.h</code></p>
+				<p><code class="declared-in-ref">NYSAppStorePay.h</code></p>
 			</div>
 			
 			

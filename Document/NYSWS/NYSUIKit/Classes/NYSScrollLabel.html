@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>NYSKitManager Class Reference</title>
+	<title>NYSScrollLabel Class Reference</title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">NYSKit </a>
+				<a href="../index.html">NYSUIKit </a>
 			</h1>
 
 			<p id="developer-home">
@@ -54,29 +54,31 @@
 	
 	<optgroup label="Properties">
 		
-		<option value="//api/name/dataKey">dataKey</option>
+		<option value="//api/name/cycleLabel">cycleLabel</option>
 		
-		<option value="//api/name/host">host</option>
+		<option value="//api/name/duration">duration</option>
 		
-		<option value="//api/name/isAlwaysShowErrorMsg">isAlwaysShowErrorMsg</option>
+		<option value="//api/name/pauseTimeIntervalBeforeScroll">pauseTimeIntervalBeforeScroll</option>
 		
-		<option value="//api/name/kickedCode">kickedCode</option>
+		<option value="//api/name/scrollLabel">scrollLabel</option>
 		
-		<option value="//api/name/msgKey">msgKey</option>
+		<option value="//api/name/space">space</option>
 		
-		<option value="//api/name/normalCode">normalCode</option>
+		<option value="//api/name/textColor">textColor</option>
 		
-		<option value="//api/name/token">token</option>
-		
-		<option value="//api/name/tokenInvalidCode">tokenInvalidCode</option>
-		
-		<option value="//api/name/tokenInvalidMessage">tokenInvalidMessage</option>
+		<option value="//api/name/textFont">textFont</option>
 		
 	</optgroup>
 	
 
 	
 
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/initData">- initData</option>
+		
+	</optgroup>
 	
 	
 </select>
@@ -91,16 +93,16 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">NYSKitManager Class Reference</h1>
+					<h1 class="title">NYSScrollLabel Class Reference</h1>
 
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<th>Inherits from</th>
-	<td>NSObject</td>
+	<td>UIView</td>
 </tr><tr>
 	<th>Declared in</th>
-	<td>NYSKitManager.h<br />NYSKitManager.m</td>
+	<td>NYSScrollLabel.h<br />NYSScrollLabel.m</td>
 </tr>
 						</tbody></table></div>
 					
@@ -114,12 +116,12 @@
 						
 
 						
-						
+						<h2 class="task-title">Other Methods</h2>
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/host" title="host"></a>
-	<h3 class="method-title"><code><a href="#//api/name/host">&nbsp;&nbsp;host</a></code>
+	<a name="//api/name/initData" title="initData"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initData">&ndash;&nbsp;initData</a></code>
 </h3>
 
 	<div class="method-info">
@@ -129,12 +131,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>请求地址</p>
+				<p>初始化数据</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *host</code></div>
+			<div class="method-subsection method-declaration"><code>- (void)initData</code></div>
 
 		    
 			
@@ -146,7 +148,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>请求地址</p>
+				<p>初始化数据</p>
 			</div>
 			
 
@@ -157,15 +159,69 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">NYSKitManager.h</code></p>
+				<p><code class="declared-in-ref">NYSScrollLabel.m</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						
+						<h2 class="task-title">Other Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/textColor" title="textColor"></a>
+	<h3 class="method-title"><code><a href="#//api/name/textColor">&nbsp;&nbsp;textColor</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>&lt; 文字</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *textColor</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>&lt; 文字</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NYSScrollLabel.h</code></p>
 			</div>
 			
 			
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/token" title="token"></a>
-	<h3 class="method-title"><code><a href="#//api/name/token">&nbsp;&nbsp;token</a></code>
+	<a name="//api/name/textFont" title="textFont"></a>
+	<h3 class="method-title"><code><a href="#//api/name/textFont">&nbsp;&nbsp;textFont</a></code>
 </h3>
 
 	<div class="method-info">
@@ -175,12 +231,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>token令牌</p>
+				<p>&lt; 字体颜色 默认白色</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *token</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIFont *textFont</code></div>
 
 		    
 			
@@ -192,7 +248,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>token令牌</p>
+				<p>&lt; 字体颜色 默认白色</p>
 			</div>
 			
 
@@ -203,15 +259,15 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">NYSKitManager.h</code></p>
+				<p><code class="declared-in-ref">NYSScrollLabel.h</code></p>
 			</div>
 			
 			
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/normalCode" title="normalCode"></a>
-	<h3 class="method-title"><code><a href="#//api/name/normalCode">&nbsp;&nbsp;normalCode</a></code>
+	<a name="//api/name/space" title="space"></a>
+	<h3 class="method-title"><code><a href="#//api/name/space">&nbsp;&nbsp;space</a></code>
 </h3>
 
 	<div class="method-info">
@@ -221,12 +277,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>正常返回代码（多个值以',&lsquo;分割）</p>
+				<p>&lt; 首尾间隔 默认25</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *normalCode</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat space</code></div>
 
 		    
 			
@@ -238,7 +294,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>正常返回代码（多个值以',&lsquo;分割）</p>
+				<p>&lt; 首尾间隔 默认25</p>
 			</div>
 			
 
@@ -249,15 +305,15 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">NYSKitManager.h</code></p>
+				<p><code class="declared-in-ref">NYSScrollLabel.h</code></p>
 			</div>
 			
 			
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/dataKey" title="dataKey"></a>
-	<h3 class="method-title"><code><a href="#//api/name/dataKey">&nbsp;&nbsp;dataKey</a></code>
+	<a name="//api/name/duration" title="duration"></a>
+	<h3 class="method-title"><code><a href="#//api/name/duration">&nbsp;&nbsp;duration</a></code>
 </h3>
 
 	<div class="method-info">
@@ -267,12 +323,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>统一的数据Key（不设置返回所有字段）</p>
+				<p>&lt; 滚动持续时间 默认5</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *dataKey</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat duration</code></div>
 
 		    
 			
@@ -284,7 +340,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>统一的数据Key（不设置返回所有字段）</p>
+				<p>&lt; 滚动持续时间 默认5</p>
 			</div>
 			
 
@@ -295,15 +351,15 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">NYSKitManager.h</code></p>
+				<p><code class="declared-in-ref">NYSScrollLabel.h</code></p>
 			</div>
 			
 			
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/msgKey" title="msgKey"></a>
-	<h3 class="method-title"><code><a href="#//api/name/msgKey">&nbsp;&nbsp;msgKey</a></code>
+	<a name="//api/name/pauseTimeIntervalBeforeScroll" title="pauseTimeIntervalBeforeScroll"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pauseTimeIntervalBeforeScroll">&nbsp;&nbsp;pauseTimeIntervalBeforeScroll</a></code>
 </h3>
 
 	<div class="method-info">
@@ -313,12 +369,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>错误信息Key</p>
+				<p>&lt; 每次开始滚动前暂停的间隔 默认2s</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *msgKey</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) NSTimeInterval pauseTimeIntervalBeforeScroll</code></div>
 
 		    
 			
@@ -330,7 +386,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>错误信息Key</p>
+				<p>&lt; 每次开始滚动前暂停的间隔 默认2s</p>
 			</div>
 			
 
@@ -341,15 +397,69 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">NYSKitManager.h</code></p>
+				<p><code class="declared-in-ref">NYSScrollLabel.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Extension Methods" name="task_Extension Methods"></a>
+						<h2 class="task-title">Extension Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/scrollLabel" title="scrollLabel"></a>
+	<h3 class="method-title"><code><a href="#//api/name/scrollLabel">&nbsp;&nbsp;scrollLabel</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>滚动前出现的Label</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UILabel *scrollLabel</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>滚动前出现的Label</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NYSScrollLabel.m</code></p>
 			</div>
 			
 			
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/isAlwaysShowErrorMsg" title="isAlwaysShowErrorMsg"></a>
-	<h3 class="method-title"><code><a href="#//api/name/isAlwaysShowErrorMsg">&nbsp;&nbsp;isAlwaysShowErrorMsg</a></code>
+	<a name="//api/name/cycleLabel" title="cycleLabel"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cycleLabel">&nbsp;&nbsp;cycleLabel</a></code>
 </h3>
 
 	<div class="method-info">
@@ -359,12 +469,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>是否Toast错误信息 default:NO</p>
+				<p>滚动后出现的Label 有循环效果</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL isAlwaysShowErrorMsg</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UILabel *cycleLabel</code></div>
 
 		    
 			
@@ -376,7 +486,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>是否Toast错误信息 default:NO</p>
+				<p>滚动后出现的Label 有循环效果</p>
 			</div>
 			
 
@@ -387,145 +497,7 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">NYSKitManager.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/tokenInvalidCode" title="tokenInvalidCode"></a>
-	<h3 class="method-title"><code><a href="#//api/name/tokenInvalidCode">&nbsp;&nbsp;tokenInvalidCode</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>token令牌失效错误码</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *tokenInvalidCode</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>token令牌失效错误码</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">NYSKitManager.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/tokenInvalidMessage" title="tokenInvalidMessage"></a>
-	<h3 class="method-title"><code><a href="#//api/name/tokenInvalidMessage">&nbsp;&nbsp;tokenInvalidMessage</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>token令牌失效错误信息</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *tokenInvalidMessage</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>token令牌失效错误信息</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">NYSKitManager.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/kickedCode" title="kickedCode"></a>
-	<h3 class="method-title"><code><a href="#//api/name/kickedCode">&nbsp;&nbsp;kickedCode</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>被踢/其他设备登录-错误码</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *kickedCode</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>被踢/其他设备登录-错误码</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">NYSKitManager.h</code></p>
+				<p><code class="declared-in-ref">NYSScrollLabel.m</code></p>
 			</div>
 			
 			

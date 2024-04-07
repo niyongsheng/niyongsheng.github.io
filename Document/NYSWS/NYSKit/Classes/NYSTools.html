@@ -70,11 +70,19 @@
 		
 		<option value="//api/name/getAgeWithBirthdayString:">+ getAgeWithBirthdayString:</option>
 		
+		<option value="//api/name/getDeviceIdentifier">+ getDeviceIdentifier</option>
+		
+		<option value="//api/name/getIDFA">+ getIDFA</option>
+		
 		<option value="//api/name/getNowTimeTimestamp">+ getNowTimeTimestamp</option>
+		
+		<option value="//api/name/isBlankString:">+ isBlankString:</option>
 		
 		<option value="//api/name/log:">+ log:</option>
 		
 		<option value="//api/name/log:layer:">+ log:layer:</option>
+		
+		<option value="//api/name/log:obj:">+ log:obj:</option>
 		
 		<option value="//api/name/nameStringAsteriskHandle:">+ nameStringAsteriskHandle:</option>
 		
@@ -90,11 +98,11 @@
 		
 		<option value="//api/name/showBottomToast:">+ showBottomToast:</option>
 		
+		<option value="//api/name/showLoading:">+ showLoading:</option>
+		
 		<option value="//api/name/showToast:">+ showToast:</option>
 		
 		<option value="//api/name/showTopToast:">+ showTopToast:</option>
-		
-		<option value="//api/name/stringIsNull:">+ stringIsNull:</option>
 		
 		<option value="//api/name/swayToShow:">+ swayToShow:</option>
 		
@@ -1133,8 +1141,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/stringIsNull:" title="stringIsNull:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/stringIsNull:">+&nbsp;stringIsNull:</a></code>
+	<a name="//api/name/isBlankString:" title="isBlankString:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isBlankString:">+&nbsp;isBlankString:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -1149,7 +1157,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>+ (BOOL)stringIsNull:(id)<em>string</em></code></div>
+			<div class="method-subsection method-declaration"><code>+ (BOOL)isBlankString:(id)<em>string</em></code></div>
 
 		    
 			
@@ -1539,6 +1547,144 @@
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/showLoading:" title="showLoading:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/showLoading:">+&nbsp;showLoading:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>加载中</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)showLoading:(NSString *)<em>msg</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>加载中</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NYSTools.m</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getDeviceIdentifier" title="getDeviceIdentifier"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getDeviceIdentifier">+&nbsp;getDeviceIdentifier</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取设备唯一标识（APP重装会改变）</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSString *)getDeviceIdentifier</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取设备唯一标识（APP重装会改变）</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NYSTools.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getIDFA" title="getIDFA"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getIDFA">+&nbsp;getIDFA</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取IDFA</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSString *)getIDFA</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取IDFA</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NYSTools.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/systemShare:controller:completion:" title="systemShare:controller:completion:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/systemShare:controller:completion:">+&nbsp;systemShare:controller:completion:</a></code>
 </h3>
@@ -1727,6 +1873,69 @@
 			
 		</div>
 	</div>
+</div><div class="section-method">
+	<a name="//api/name/log:obj:" title="log:obj:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/log:obj:">+&nbsp;log:obj:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>错误打印</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)log:(Class)<em>from</em> obj:(id)<em>obj</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>from</code></th>
+						<td><p>调用类</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>obj</code></th>
+						<td><p>打印对象</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>错误打印</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NYSTools.m</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
 </div>
 						</div>
 						
@@ -1742,7 +1951,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2024 NYS. All rights reserved. Updated: 2024-01-23</p>
+						<p class="copyright">Copyright &copy; 2024 NYS. All rights reserved. Updated: 2024-04-07</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

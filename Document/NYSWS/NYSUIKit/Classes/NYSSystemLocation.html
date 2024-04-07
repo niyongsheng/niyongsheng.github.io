@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>WSScrollLabel Class Reference</title>
+	<title>NYSSystemLocation Class Reference</title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
@@ -54,17 +54,7 @@
 	
 	<optgroup label="Properties">
 		
-		<option value="//api/name/duration">duration</option>
-		
-		<option value="//api/name/pauseTimeIntervalBeforeScroll">pauseTimeIntervalBeforeScroll</option>
-		
-		<option value="//api/name/scrollAnimation">scrollAnimation</option>
-		
-		<option value="//api/name/space">space</option>
-		
-		<option value="//api/name/textColor">textColor</option>
-		
-		<option value="//api/name/textFont">textFont</option>
+		<option value="//api/name/completion">completion</option>
 		
 	</optgroup>
 	
@@ -74,7 +64,15 @@
 	
 	<optgroup label="Instance Methods">
 		
-		<option value="//api/name/initData">- initData</option>
+		<option value="//api/name/requestLocation:">- requestLocation:</option>
+		
+		<option value="//api/name/requestLocationSystem">- requestLocationSystem</option>
+		
+		<option value="//api/name/reverseGeocodeWithLocation:">- reverseGeocodeWithLocation:</option>
+		
+		<option value="//api/name/startUpdatingLocation:">- startUpdatingLocation:</option>
+		
+		<option value="//api/name/startUpdatingLocationSystem">- startUpdatingLocationSystem</option>
 		
 	</optgroup>
 	
@@ -91,16 +89,16 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">WSScrollLabel Class Reference</h1>
+					<h1 class="title">NYSSystemLocation Class Reference</h1>
 
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<th>Inherits from</th>
-	<td>UIView</td>
+	<td>NSObject</td>
 </tr><tr>
 	<th>Declared in</th>
-	<td>WSScrollLabel.h<br />WSScrollLabel.m</td>
+	<td>NYSSystemLocation.h<br />NYSSystemLocation.m</td>
 </tr>
 						</tbody></table></div>
 					
@@ -118,8 +116,8 @@
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/initData" title="initData"></a>
-	<h3 class="method-title"><code><a href="#//api/name/initData">&ndash;&nbsp;initData</a></code>
+	<a name="//api/name/requestLocationSystem" title="requestLocationSystem"></a>
+	<h3 class="method-title"><code><a href="#//api/name/requestLocationSystem">&ndash;&nbsp;requestLocationSystem</a></code>
 </h3>
 
 	<div class="method-info">
@@ -129,12 +127,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>初始化数据</p>
+				<p>单次定位</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)initData</code></div>
+			<div class="method-subsection method-declaration"><code>- (void)requestLocationSystem</code></div>
 
 		    
 			
@@ -146,7 +144,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>初始化数据</p>
+				<p>单次定位</p>
 			</div>
 			
 
@@ -157,7 +155,197 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">WSScrollLabel.m</code></p>
+				<p><code class="declared-in-ref">NYSSystemLocation.m</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/requestLocation:" title="requestLocation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/requestLocation:">&ndash;&nbsp;requestLocation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>单次定位
+- Parameter coordinateType: 坐标类型</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)requestLocation:(NYSCoordinateType)<em>coordinateType</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>单次定位
+- Parameter coordinateType: 坐标类型</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NYSSystemLocation.m</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startUpdatingLocationSystem" title="startUpdatingLocationSystem"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startUpdatingLocationSystem">&ndash;&nbsp;startUpdatingLocationSystem</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>持续定位</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)startUpdatingLocationSystem</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>持续定位</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NYSSystemLocation.m</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startUpdatingLocation:" title="startUpdatingLocation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startUpdatingLocation:">&ndash;&nbsp;startUpdatingLocation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>持续定位
+- Parameter coordinateType: 坐标类型</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)startUpdatingLocation:(NYSCoordinateType)<em>coordinateType</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>持续定位
+- Parameter coordinateType: 坐标类型</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NYSSystemLocation.m</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/reverseGeocodeWithLocation:" title="reverseGeocodeWithLocation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/reverseGeocodeWithLocation:">&ndash;&nbsp;reverseGeocodeWithLocation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>逆地理编码
+- Parameter currentLocation: 当前位置</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)reverseGeocodeWithLocation:(CLLocation *_Nonnull)<em>currentLocation</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>逆地理编码
+- Parameter currentLocation: 当前位置</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NYSSystemLocation.h</code></p>
 			</div>
 			
 			
@@ -172,8 +360,8 @@
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/textColor" title="textColor"></a>
-	<h3 class="method-title"><code><a href="#//api/name/textColor">&nbsp;&nbsp;textColor</a></code>
+	<a name="//api/name/completion" title="completion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/completion">&nbsp;&nbsp;completion</a></code>
 </h3>
 
 	<div class="method-info">
@@ -183,12 +371,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>&lt; 文字</p>
+				<p>定位结果</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *textColor</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NYSLocationCompletion _Nullable completion</code></div>
 
 		    
 			
@@ -200,7 +388,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>&lt; 文字</p>
+				<p>定位结果</p>
 			</div>
 			
 
@@ -211,245 +399,7 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">WSScrollLabel.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/textFont" title="textFont"></a>
-	<h3 class="method-title"><code><a href="#//api/name/textFont">&nbsp;&nbsp;textFont</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>&lt; 字体颜色 默认白色</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIFont *textFont</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>&lt; 字体颜色 默认白色</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">WSScrollLabel.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/space" title="space"></a>
-	<h3 class="method-title"><code><a href="#//api/name/space">&nbsp;&nbsp;space</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>&lt; 首尾间隔 默认25</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat space</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>&lt; 首尾间隔 默认25</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">WSScrollLabel.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/duration" title="duration"></a>
-	<h3 class="method-title"><code><a href="#//api/name/duration">&nbsp;&nbsp;duration</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>&lt; 滚动持续时间 默认5</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat duration</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>&lt; 滚动持续时间 默认5</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">WSScrollLabel.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/pauseTimeIntervalBeforeScroll" title="pauseTimeIntervalBeforeScroll"></a>
-	<h3 class="method-title"><code><a href="#//api/name/pauseTimeIntervalBeforeScroll">&nbsp;&nbsp;pauseTimeIntervalBeforeScroll</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>&lt; 每次开始滚动前暂停的间隔 默认2s</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) NSTimeInterval pauseTimeIntervalBeforeScroll</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>&lt; 每次开始滚动前暂停的间隔 默认2s</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">WSScrollLabel.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-						</div>
-						
-
-						<a title="Extension Methods" name="task_Extension Methods"></a>
-						<h2 class="task-title">Extension Methods</h2>
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/scrollAnimation" title="scrollAnimation"></a>
-	<h3 class="method-title"><code><a href="#//api/name/scrollAnimation">&nbsp;&nbsp;scrollAnimation</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>&lt; 滚动后出现的Label 有循环效果</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) CABasicAnimation *scrollAnimation</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>&lt; 滚动后出现的Label 有循环效果</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">WSScrollLabel.m</code></p>
+				<p><code class="declared-in-ref">NYSSystemLocation.h</code></p>
 			</div>
 			
 			
@@ -470,7 +420,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2024 NYS. All rights reserved. Updated: 2024-01-23</p>
+						<p class="copyright">Copyright &copy; 2024 NYS. All rights reserved. Updated: 2024-04-07</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

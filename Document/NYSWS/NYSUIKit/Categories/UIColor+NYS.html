@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>UIButton(NYS) Category Reference</title>
+	<title>UIColor(NYS) Category Reference</title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
@@ -54,19 +54,21 @@
 	
 
 	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/gradientFromColor:toColor:direction:">+ gradientFromColor:toColor:direction:</option>
+		
+	</optgroup>
+	
 
 	
 	<optgroup label="Instance Methods">
 		
-		<option value="//api/name/enlargeTouchEdge:">- enlargeTouchEdge:</option>
+		<option value="//api/name/initWithHexString:alpha:">- initWithHexString:alpha:</option>
 		
-		<option value="//api/name/isIgnore">- isIgnore</option>
+		<option value="//api/name/initWithRandomColor">- initWithRandomColor</option>
 		
-		<option value="//api/name/startLoading">- startLoading</option>
-		
-		<option value="//api/name/stopLoading">- stopLoading</option>
-		
-		<option value="//api/name/timeInterval">- timeInterval</option>
+		<option value="//api/name/transformHexString">- transformHexString</option>
 		
 	</optgroup>
 	
@@ -83,13 +85,13 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">UIButton(NYS) Category Reference</h1>
+					<h1 class="title">UIColor(NYS) Category Reference</h1>
 
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<th>Declared in</th>
-	<td>UIButton+NYS.h<br />UIButton+NYS.m</td>
+	<td>UIColor+NYS.h<br />UIColor+NYS.m</td>
 </tr>
 						</tbody></table></div>
 					
@@ -107,8 +109,8 @@
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/enlargeTouchEdge:" title="enlargeTouchEdge:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/enlargeTouchEdge:">&ndash;&nbsp;enlargeTouchEdge:</a></code>
+	<a name="//api/name/initWithHexString:alpha:" title="initWithHexString:alpha:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithHexString:alpha:">&ndash;&nbsp;initWithHexString:alpha:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -118,12 +120,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>点击响应范围</p>
+				<p>通过十六进制字符串创建UIColor</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)enlargeTouchEdge:(UIEdgeInsets)<em>edge</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithHexString:(NSString *)<em>hexString</em> alpha:(CGFloat)<em>alpha</em></code></div>
 
 		    
 			
@@ -132,8 +134,13 @@
 				<table class="argument-def parameter-def">
 				
 					<tr>
-						<th scope="row" class="argument-name"><code>edge</code></th>
-						<td><p>范围</p></td>
+						<th scope="row" class="argument-name"><code>hexString</code></th>
+						<td><p>色值</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>alpha</code></th>
+						<td><p>透明度</p></td>
 					</tr>
 				
 				</table>
@@ -147,7 +154,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>点击响应范围</p>
+				<p>通过十六进制字符串创建UIColor</p>
 			</div>
 			
 
@@ -158,15 +165,15 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UIButton+NYS.h</code></p>
+				<p><code class="declared-in-ref">UIColor+NYS.h</code></p>
 			</div>
 			
 			
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/timeInterval" title="timeInterval"></a>
-	<h3 class="method-title"><code><a href="#//api/name/timeInterval">&ndash;&nbsp;timeInterval</a></code>
+	<a name="//api/name/initWithRandomColor" title="initWithRandomColor"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithRandomColor">&ndash;&nbsp;initWithRandomColor</a></code>
 </h3>
 
 	<div class="method-info">
@@ -176,12 +183,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>按钮点击时间间隔</p>
+				<p>随机颜色</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (NSTimeInterval)timeInterval</code></div>
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithRandomColor</code></div>
 
 		    
 			
@@ -193,7 +200,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>按钮点击时间间隔</p>
+				<p>随机颜色</p>
 			</div>
 			
 
@@ -204,15 +211,15 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UIButton+NYS.h</code></p>
+				<p><code class="declared-in-ref">UIColor+NYS.h</code></p>
 			</div>
 			
 			
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/isIgnore" title="isIgnore"></a>
-	<h3 class="method-title"><code><a href="#//api/name/isIgnore">&ndash;&nbsp;isIgnore</a></code>
+	<a name="//api/name/transformHexString" title="transformHexString"></a>
+	<h3 class="method-title"><code><a href="#//api/name/transformHexString">&ndash;&nbsp;transformHexString</a></code>
 </h3>
 
 	<div class="method-info">
@@ -222,12 +229,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>按钮不需要被hook时传YES</p>
+				<p>将颜色转换为十六进制表示</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BOOL)isIgnore</code></div>
+			<div class="method-subsection method-declaration"><code>- (NSString *)transformHexString</code></div>
 
 		    
 			
@@ -239,7 +246,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>按钮不需要被hook时传YES</p>
+				<p>将颜色转换为十六进制表示</p>
 			</div>
 			
 
@@ -250,15 +257,15 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UIButton+NYS.h</code></p>
+				<p><code class="declared-in-ref">UIColor+NYS.h</code></p>
 			</div>
 			
 			
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/startLoading" title="startLoading"></a>
-	<h3 class="method-title"><code><a href="#//api/name/startLoading">&ndash;&nbsp;startLoading</a></code>
+	<a name="//api/name/gradientFromColor:toColor:direction:" title="gradientFromColor:toColor:direction:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/gradientFromColor:toColor:direction:">+&nbsp;gradientFromColor:toColor:direction:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -268,14 +275,36 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>开始加载动画</p>
+				<p>创建渐变色图层</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)startLoading</code></div>
+			<div class="method-subsection method-declaration"><code>+ (CAGradientLayer *)gradientFromColor:(UIColor *)<em>startColor</em> toColor:(UIColor *)<em>endColor</em> direction:(GradientDirection)<em>direction</em></code></div>
 
 		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>startColor</code></th>
+						<td><p>开始色</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>endColor</code></th>
+						<td><p>结束色</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>direction</code></th>
+						<td><p>渐变方向</p></td>
+					</tr>
+				
+				</table>
+			</div>
 			
 
 			
@@ -285,7 +314,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>开始加载动画</p>
+				<p>创建渐变色图层</p>
 			</div>
 			
 
@@ -296,53 +325,7 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UIButton+NYS.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/stopLoading" title="stopLoading"></a>
-	<h3 class="method-title"><code><a href="#//api/name/stopLoading">&ndash;&nbsp;stopLoading</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>停止加载动画</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)stopLoading</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>停止加载动画</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UIButton+NYS.h</code></p>
+				<p><code class="declared-in-ref">UIColor+NYS.h</code></p>
 			</div>
 			
 			

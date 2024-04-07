@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>UIButton(NYS) Category Reference</title>
+	<title>UIScrollView(EmptyDataSet) Category Reference</title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
@@ -43,6 +43,8 @@
 							<select id="jump-to">
 	<option value="top">Jump To&#133;</option>
 	
+	<option value="overview">Overview</option>
+	
 
 	
 	
@@ -52,21 +54,23 @@
 
 	
 	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/emptyDataSetDelegate">emptyDataSetDelegate</option>
+		
+		<option value="//api/name/emptyDataSetSource">emptyDataSetSource</option>
+		
+		<option value="//api/name/emptyDataSetVisible">emptyDataSetVisible</option>
+		
+	</optgroup>
+	
 
 	
 
 	
 	<optgroup label="Instance Methods">
 		
-		<option value="//api/name/enlargeTouchEdge:">- enlargeTouchEdge:</option>
-		
-		<option value="//api/name/isIgnore">- isIgnore</option>
-		
-		<option value="//api/name/startLoading">- startLoading</option>
-		
-		<option value="//api/name/stopLoading">- stopLoading</option>
-		
-		<option value="//api/name/timeInterval">- timeInterval</option>
+		<option value="//api/name/reloadEmptyDataSet">- reloadEmptyDataSet</option>
 		
 	</optgroup>
 	
@@ -83,18 +87,26 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">UIButton(NYS) Category Reference</h1>
+					<h1 class="title">UIScrollView(EmptyDataSet) Category Reference</h1>
 
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<th>Declared in</th>
-	<td>UIButton+NYS.h<br />UIButton+NYS.m</td>
+	<td>UIScrollView+EmptyDataSet.h</td>
 </tr>
 						</tbody></table></div>
 					
 
                     
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>A drop-in UITableView/UICollectionView superclass category for showing empty datasets whenever the view has no content to display.</p><p>It will work automatically, by just conforming to <a href="../Protocols/DZNEmptyDataSetSource.html">DZNEmptyDataSetSource</a>, and returning the data you want to show.</p>
+					</div>
+					
+					
 
 					
 					
@@ -107,8 +119,8 @@
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/enlargeTouchEdge:" title="enlargeTouchEdge:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/enlargeTouchEdge:">&ndash;&nbsp;enlargeTouchEdge:</a></code>
+	<a name="//api/name/emptyDataSetSource" title="emptyDataSetSource"></a>
+	<h3 class="method-title"><code><a href="#//api/name/emptyDataSetSource">&nbsp;&nbsp;emptyDataSetSource</a></code>
 </h3>
 
 	<div class="method-info">
@@ -118,26 +130,14 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>点击响应范围</p>
+				<p>The empty datasets data source.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)enlargeTouchEdge:(UIEdgeInsets)<em>edge</em></code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) IBOutlet id&lt;DZNEmptyDataSetSource&gt; emptyDataSetSource</code></div>
 
 		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>edge</code></th>
-						<td><p>范围</p></td>
-					</tr>
-				
-				</table>
-			</div>
 			
 
 			
@@ -147,7 +147,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>点击响应范围</p>
+				<p>The empty datasets data source.</p>
 			</div>
 			
 
@@ -158,15 +158,15 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UIButton+NYS.h</code></p>
+				<p><code class="declared-in-ref">UIScrollView+EmptyDataSet.h</code></p>
 			</div>
 			
 			
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/timeInterval" title="timeInterval"></a>
-	<h3 class="method-title"><code><a href="#//api/name/timeInterval">&ndash;&nbsp;timeInterval</a></code>
+	<a name="//api/name/emptyDataSetDelegate" title="emptyDataSetDelegate"></a>
+	<h3 class="method-title"><code><a href="#//api/name/emptyDataSetDelegate">&nbsp;&nbsp;emptyDataSetDelegate</a></code>
 </h3>
 
 	<div class="method-info">
@@ -176,12 +176,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>按钮点击时间间隔</p>
+				<p>The empty datasets delegate.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (NSTimeInterval)timeInterval</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) IBOutlet id&lt;DZNEmptyDataSetDelegate&gt; emptyDataSetDelegate</code></div>
 
 		    
 			
@@ -193,7 +193,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>按钮点击时间间隔</p>
+				<p>The empty datasets delegate.</p>
 			</div>
 			
 
@@ -204,15 +204,15 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UIButton+NYS.h</code></p>
+				<p><code class="declared-in-ref">UIScrollView+EmptyDataSet.h</code></p>
 			</div>
 			
 			
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/isIgnore" title="isIgnore"></a>
-	<h3 class="method-title"><code><a href="#//api/name/isIgnore">&ndash;&nbsp;isIgnore</a></code>
+	<a name="//api/name/emptyDataSetVisible" title="emptyDataSetVisible"></a>
+	<h3 class="method-title"><code><a href="#//api/name/emptyDataSetVisible">&nbsp;&nbsp;emptyDataSetVisible</a></code>
 </h3>
 
 	<div class="method-info">
@@ -222,12 +222,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>按钮不需要被hook时传YES</p>
+				<p>YES if any empty dataset is visible.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BOOL)isIgnore</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, getter=isEmptyDataSetVisible) BOOL emptyDataSetVisible</code></div>
 
 		    
 			
@@ -239,7 +239,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>按钮不需要被hook时传YES</p>
+				<p>YES if any empty dataset is visible.</p>
 			</div>
 			
 
@@ -250,15 +250,15 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UIButton+NYS.h</code></p>
+				<p><code class="declared-in-ref">UIScrollView+EmptyDataSet.h</code></p>
 			</div>
 			
 			
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/startLoading" title="startLoading"></a>
-	<h3 class="method-title"><code><a href="#//api/name/startLoading">&ndash;&nbsp;startLoading</a></code>
+	<a name="//api/name/reloadEmptyDataSet" title="reloadEmptyDataSet"></a>
+	<h3 class="method-title"><code><a href="#//api/name/reloadEmptyDataSet">&ndash;&nbsp;reloadEmptyDataSet</a></code>
 </h3>
 
 	<div class="method-info">
@@ -268,12 +268,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>开始加载动画</p>
+				<p>Reloads the empty dataset content receiver.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)startLoading</code></div>
+			<div class="method-subsection method-declaration"><code>- (void)reloadEmptyDataSet</code></div>
 
 		    
 			
@@ -285,7 +285,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>开始加载动画</p>
+				<p>Reloads the empty dataset content receiver.</p><p>Call this method to force all the data to refresh. Calling -reloadData is similar, but this forces only the empty dataset to reload, not the entire table view or collection view.</p>
 			</div>
 			
 
@@ -296,53 +296,7 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UIButton+NYS.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/stopLoading" title="stopLoading"></a>
-	<h3 class="method-title"><code><a href="#//api/name/stopLoading">&ndash;&nbsp;stopLoading</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>停止加载动画</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)stopLoading</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>停止加载动画</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UIButton+NYS.h</code></p>
+				<p><code class="declared-in-ref">UIScrollView+EmptyDataSet.h</code></p>
 			</div>
 			
 			

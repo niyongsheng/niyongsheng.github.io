@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>UITextField(NYS) Category Reference</title>
+	<title>BFPaperCheckboxDelegate Protocol Reference</title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
@@ -58,7 +58,7 @@
 	
 	<optgroup label="Instance Methods">
 		
-		<option value="//api/name/maxLength">- maxLength</option>
+		<option value="//api/name/paperCheckboxChangedState:">- paperCheckboxChangedState:</option>
 		
 	</optgroup>
 	
@@ -75,13 +75,16 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">UITextField(NYS) Category Reference</h1>
+					<h1 class="title">BFPaperCheckboxDelegate Protocol Reference</h1>
 
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
+	<th>Conforms to</th>
+	<td>NSObject</td>
+</tr><tr>
 	<th>Declared in</th>
-	<td>UITextField+NYS.h<br />UITextField+NYS.m</td>
+	<td>BFPaperCheckbox.h</td>
 </tr>
 						</tbody></table></div>
 					
@@ -99,8 +102,8 @@
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/maxLength" title="maxLength"></a>
-	<h3 class="method-title"><code><a href="#//api/name/maxLength">&ndash;&nbsp;maxLength</a></code>
+	<a name="//api/name/paperCheckboxChangedState:" title="paperCheckboxChangedState:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/paperCheckboxChangedState:">&ndash;&nbsp;paperCheckboxChangedState:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -110,12 +113,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>最大可输入位数</p>
+				<p>An optional protocol method for detecting when the checkbox state changed. You can check its current state here with &lsquo;checkbox.isChecked&rsquo;.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (NSInteger)maxLength</code></div>
+			<div class="method-subsection method-declaration"><code>- (void)paperCheckboxChangedState:(BFPaperCheckbox *)<em>checkbox</em></code></div>
 
 		    
 			
@@ -127,7 +130,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>最大可输入位数</p>
+				<p>An optional protocol method for detecting when the checkbox state changed. You can check its current state here with &lsquo;checkbox.isChecked&rsquo;.</p>
 			</div>
 			
 
@@ -138,7 +141,7 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UITextField+NYS.h</code></p>
+				<p><code class="declared-in-ref">BFPaperCheckbox.h</code></p>
 			</div>
 			
 			

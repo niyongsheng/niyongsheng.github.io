@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>UIView(Tools) Category Reference</title>
+	<title>UIView(NYS) Category Reference</title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
@@ -64,7 +64,21 @@
 	
 
 	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/showLoadingWithImage:">+ showLoadingWithImage:</option>
+		
+		<option value="//api/name/showLoadingWithTintColor:">+ showLoadingWithTintColor:</option>
+		
+	</optgroup>
+	
 
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/addTapActionWithBlock:">- addTapActionWithBlock:</option>
+		
+	</optgroup>
 	
 	
 </select>
@@ -79,13 +93,13 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">UIView(Tools) Category Reference</h1>
+					<h1 class="title">UIView(NYS) Category Reference</h1>
 
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<th>Declared in</th>
-	<td>UIView+Tools.h<br />UIView+Tools.m</td>
+	<td>UIView+NYS.h<br />UIView+NYS.m</td>
 </tr>
 						</tbody></table></div>
 					
@@ -119,7 +133,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *borderColor</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) IBInspectable UIColor *borderColor</code></div>
 
 		    
 			
@@ -142,7 +156,7 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UIView+Tools.h</code></p>
+				<p><code class="declared-in-ref">UIView+NYS.h</code></p>
 			</div>
 			
 			
@@ -165,7 +179,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat borderWidth</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) IBInspectable CGFloat borderWidth</code></div>
 
 		    
 			
@@ -188,7 +202,7 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UIView+Tools.h</code></p>
+				<p><code class="declared-in-ref">UIView+NYS.h</code></p>
 			</div>
 			
 			
@@ -211,7 +225,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat cornerRadius</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) IBInspectable CGFloat cornerRadius</code></div>
 
 		    
 			
@@ -234,7 +248,149 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UIView+Tools.h</code></p>
+				<p><code class="declared-in-ref">UIView+NYS.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/showLoadingWithTintColor:" title="showLoadingWithTintColor:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/showLoadingWithTintColor:">+&nbsp;showLoadingWithTintColor:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>显示加载动画(毛玻璃效果)
+- Parameter tintColor: 指示器颜色</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (UIView *)showLoadingWithTintColor:(UIColor *)<em>tintColor</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>显示加载动画(毛玻璃效果)
+- Parameter tintColor: 指示器颜色</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIView+NYS.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/showLoadingWithImage:" title="showLoadingWithImage:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/showLoadingWithImage:">+&nbsp;showLoadingWithImage:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>显示加载动画
+- Parameter image: 自定义旋转图</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (UIView *)showLoadingWithImage:(UIImage *)<em>image</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>显示加载动画
+- Parameter image: 自定义旋转图</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIView+NYS.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addTapActionWithBlock:" title="addTapActionWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addTapActionWithBlock:">&ndash;&nbsp;addTapActionWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>添加点击事件</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)addTapActionWithBlock:(NYSTapActionBlock)<em>block</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>添加点击事件</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIView+NYS.h</code></p>
 			</div>
 			
 			
@@ -255,7 +411,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2024 NYS. All rights reserved. Updated: 2024-01-23</p>
+						<p class="copyright">Copyright &copy; 2024 NYS. All rights reserved. Updated: 2024-04-07</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

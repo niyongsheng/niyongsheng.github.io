@@ -60,13 +60,19 @@
 		
 		<option value="//api/name/jsonNoCheckNetworkRequestWithType:url:parameters:remark:success:failed:">+ jsonNoCheckNetworkRequestWithType:url:parameters:remark:success:failed:</option>
 		
-		<option value="//api/name/mockRequestWithParameters:isCheck:remark:success:failed:">+ mockRequestWithParameters:isCheck:remark:success:failed:</option>
+		<option value="//api/name/jsonPrettyStringEncoded:">+ jsonPrettyStringEncoded:</option>
+		
+		<option value="//api/name/jsonRequestWithType:url:parameters:responseSerializer:isCheck:remark:success:failed:">+ jsonRequestWithType:url:parameters:responseSerializer:isCheck:remark:success:failed:</option>
+		
+		<option value="//api/name/mockRequestWithType:url:parameters:remark:success:failed:">+ mockRequestWithType:url:parameters:remark:success:failed:</option>
 		
 		<option value="//api/name/ossUploadImageWithuUrlStr:parameters:name:image:imageName:imageScale:imageType:remark:progress:success:failed:">+ ossUploadImageWithuUrlStr:parameters:name:image:imageName:imageScale:imageType:remark:progress:success:failed:</option>
 		
 		<option value="//api/name/requestNetworkWithType:url:parameters:remark:success:failed:">+ requestNetworkWithType:url:parameters:remark:success:failed:</option>
 		
-		<option value="//api/name/uploadImagesWithType:url:parameters:name:files:fileNames:imageScale:imageType:remark:progress:success:failed:">+ uploadImagesWithType:url:parameters:name:files:fileNames:imageScale:imageType:remark:progress:success:failed:</option>
+		<option value="//api/name/requestNoCheckNetworkWithType:url:parameters:remark:success:failed:">+ requestNoCheckNetworkWithType:url:parameters:remark:success:failed:</option>
+		
+		<option value="//api/name/uploadImagesWithType:url:parameters:name:files:fileNames:imageScale:imageType:remark:responseSerializer:progress:success:failed:">+ uploadImagesWithType:url:parameters:name:files:fileNames:imageScale:imageType:remark:responseSerializer:progress:success:failed:</option>
 		
 	</optgroup>
 	
@@ -108,7 +114,7 @@
 						
 
 						
-						
+						<h2 class="task-title">Other Methods</h2>
 
 						<div class="task-list">
 							<div class="section-method">
@@ -158,8 +164,56 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/uploadImagesWithType:url:parameters:name:files:fileNames:imageScale:imageType:remark:progress:success:failed:" title="uploadImagesWithType:url:parameters:name:files:fileNames:imageScale:imageType:remark:progress:success:failed:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/uploadImagesWithType:url:parameters:name:files:fileNames:imageScale:imageType:remark:progress:success:failed:">+&nbsp;uploadImagesWithType:url:parameters:name:files:fileNames:imageScale:imageType:remark:progress:success:failed:</a></code>
+	<a name="//api/name/requestNoCheckNetworkWithType:url:parameters:remark:success:failed:" title="requestNoCheckNetworkWithType:url:parameters:remark:success:failed:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/requestNoCheckNetworkWithType:url:parameters:remark:success:failed:">+&nbsp;requestNoCheckNetworkWithType:url:parameters:remark:success:failed:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Form表单网络请求
+不校验接口返回数据的合法性</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)requestNoCheckNetworkWithType:(NYSNetRequestType)<em>type</em> url:(NSString *_Nonnull)<em>url</em> parameters:(id)<em>parameters</em> remark:(NSString *)<em>remark</em> success:(NYSNetRequestSuccess _Nullable)<em>success</em> failed:(NYSNetRequestFailed _Nullable)<em>failed</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Form表单网络请求
+不校验接口返回数据的合法性</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NYSNetRequest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/uploadImagesWithType:url:parameters:name:files:fileNames:imageScale:imageType:remark:responseSerializer:progress:success:failed:" title="uploadImagesWithType:url:parameters:name:files:fileNames:imageScale:imageType:remark:responseSerializer:progress:success:failed:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/uploadImagesWithType:url:parameters:name:files:fileNames:imageScale:imageType:remark:responseSerializer:progress:success:failed:">+&nbsp;uploadImagesWithType:url:parameters:name:files:fileNames:imageScale:imageType:remark:responseSerializer:progress:success:failed:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -174,7 +228,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>+ (void)uploadImagesWithType:(NYSNetRequestType)<em>type</em> url:(NSString *_Nonnull)<em>url</em> parameters:(id)<em>parameters</em> name:(NSString *)<em>name</em> files:(NSArray *)<em>files</em> fileNames:(NSArray&lt;NSString*&gt; *)<em>fileNames</em> imageScale:(CGFloat)<em>imageScale</em> imageType:(NSString *)<em>imageType</em> remark:(id)<em>remark</em> progress:(nullable void ( ^ ) ( NSProgress *_Nonnull ))<em>process</em> success:(NYSNetRequestSuccess _Nullable)<em>success</em> failed:(NYSNetRequestFailed _Nullable)<em>failed</em></code></div>
+			<div class="method-subsection method-declaration"><code>+ (void)uploadImagesWithType:(NYSNetRequestType)<em>type</em> url:(NSString *_Nonnull)<em>url</em> parameters:(id)<em>parameters</em> name:(NSString *)<em>name</em> files:(NSArray *)<em>files</em> fileNames:(NSArray&lt;NSString*&gt; *)<em>fileNames</em> imageScale:(CGFloat)<em>imageScale</em> imageType:(NSString *)<em>imageType</em> remark:(NSString *)<em>remark</em> responseSerializer:(id&lt;AFURLResponseSerialization&gt; _Nonnull)<em>responseSerializer</em> progress:(nullable void ( ^ ) ( NSProgress *_Nonnull ))<em>process</em> success:(NYSNetRequestSuccess _Nullable)<em>success</em> failed:(NYSNetRequestFailed _Nullable)<em>failed</em></code></div>
 
 		    
 			
@@ -307,7 +361,8 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>JSON传参网络请求(不统一检查接口返回数据的合法性)</p>
+				<p>JSON传参网络请求
+不校验接口返回数据的合法性</p>
 			</div>
 			
 		    
@@ -324,7 +379,8 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>JSON传参网络请求(不统一检查接口返回数据的合法性)</p>
+				<p>JSON传参网络请求
+不校验接口返回数据的合法性</p>
 			</div>
 			
 
@@ -342,8 +398,56 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/mockRequestWithParameters:isCheck:remark:success:failed:" title="mockRequestWithParameters:isCheck:remark:success:failed:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/mockRequestWithParameters:isCheck:remark:success:failed:">+&nbsp;mockRequestWithParameters:isCheck:remark:success:failed:</a></code>
+	<a name="//api/name/jsonRequestWithType:url:parameters:responseSerializer:isCheck:remark:success:failed:" title="jsonRequestWithType:url:parameters:responseSerializer:isCheck:remark:success:failed:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/jsonRequestWithType:url:parameters:responseSerializer:isCheck:remark:success:failed:">+&nbsp;jsonRequestWithType:url:parameters:responseSerializer:isCheck:remark:success:failed:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>JSON传参网络请求
+自定义数据序列化方式responseSerializer</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)jsonRequestWithType:(NYSNetRequestType)<em>type</em> url:(NSString *_Nonnull)<em>url</em> parameters:(id)<em>parameters</em> responseSerializer:(id&lt;AFURLResponseSerialization&gt; _Nonnull)<em>responseSerializer</em> isCheck:(BOOL)<em>isCheck</em> remark:(NSString *_Nullable)<em>remark</em> success:(NYSNetRequestSuccess)<em>success</em> failed:(NYSNetRequestFailed)<em>failed</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>JSON传参网络请求
+自定义数据序列化方式responseSerializer</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NYSNetRequest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/mockRequestWithType:url:parameters:remark:success:failed:" title="mockRequestWithType:url:parameters:remark:success:failed:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/mockRequestWithType:url:parameters:remark:success:failed:">+&nbsp;mockRequestWithType:url:parameters:remark:success:failed:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -355,8 +459,9 @@
 			<div class="method-subsection brief-description">
 				<p>Mock网络请求
 - Parameters:
-   - parameters: 参数：文件名xxx.json || 路径xx/xx/xxx.txt
-   - isCheck: 是否校验
+   - type: 请求方式
+   - url: 路径：xxx.json || xx/xx/xxx.json
+   - parameters: 参数
    - remark: 备注
    - success: 读取成功回调
    - failed: 读取失败回调</p>
@@ -364,7 +469,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>+ (void)mockRequestWithParameters:(NSString *_Nonnull)<em>parameters</em> isCheck:(BOOL)<em>isCheck</em> remark:(NSString *_Nullable)<em>remark</em> success:(NYSNetRequestSuccess _Nullable)<em>success</em> failed:(NYSNetRequestFailed _Nullable)<em>failed</em></code></div>
+			<div class="method-subsection method-declaration"><code>+ (void)mockRequestWithType:(NYSNetRequestType)<em>type</em> url:(NSString *_Nonnull)<em>url</em> parameters:(id)<em>parameters</em> remark:(NSString *_Nullable)<em>remark</em> success:(NYSNetRequestSuccess _Nullable)<em>success</em> failed:(NYSNetRequestFailed _Nullable)<em>failed</em></code></div>
 
 		    
 			
@@ -378,11 +483,68 @@
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>Mock网络请求
 - Parameters:
-   - parameters: 参数：文件名xxx.json || 路径xx/xx/xxx.txt
-   - isCheck: 是否校验
+   - type: 请求方式
+   - url: 路径：xxx.json || xx/xx/xxx.json
+   - parameters: 参数
    - remark: 备注
    - success: 读取成功回调
    - failed: 读取失败回调</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NYSNetRequest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						
+						<h2 class="task-title">Other Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/jsonPrettyStringEncoded:" title="jsonPrettyStringEncoded:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/jsonPrettyStringEncoded:">+&nbsp;jsonPrettyStringEncoded:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>JSON样式编码
+- Parameter dict: 字典</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSString *_Nonnull)jsonPrettyStringEncoded:(NSDictionary *_Nonnull)<em>dict</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>JSON样式编码
+- Parameter dict: 字典</p>
 			</div>
 			
 
@@ -414,7 +576,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2024 NYS. All rights reserved. Updated: 2024-01-23</p>
+						<p class="copyright">Copyright &copy; 2024 NYS. All rights reserved. Updated: 2024-04-07</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

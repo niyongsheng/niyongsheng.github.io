@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>UINavigationController(FDFullscreenPopGesture) Category Reference</title>
+	<title>NYSAppStorePay Class Reference</title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">NYSUIKit </a>
+				<a href="../index.html">NYSKit </a>
 			</h1>
 
 			<p id="developer-home">
@@ -43,8 +43,6 @@
 							<select id="jump-to">
 	<option value="top">Jump To&#133;</option>
 	
-	<option value="overview">Overview</option>
-	
 
 	
 	
@@ -56,15 +54,19 @@
 	
 	<optgroup label="Properties">
 		
-		<option value="//api/name/fd_fullscreenPopGestureRecognizer">fd_fullscreenPopGestureRecognizer</option>
-		
-		<option value="//api/name/fd_viewControllerBasedNavigationBarAppearanceEnabled">fd_viewControllerBasedNavigationBarAppearanceEnabled</option>
+		<option value="//api/name/goodsId">goodsId</option>
 		
 	</optgroup>
 	
 
 	
 
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/starBuyToAppStore:">- starBuyToAppStore:</option>
+		
+	</optgroup>
 	
 	
 </select>
@@ -79,27 +81,21 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">UINavigationController(FDFullscreenPopGesture) Category Reference</h1>
+					<h1 class="title">NYSAppStorePay Class Reference</h1>
 
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
 	<th>Declared in</th>
-	<td>UINavigationController+FDFullscreenPopGesture.h<br />UINavigationController+FDFullscreenPopGesture.m</td>
+	<td>NYSAppStorePay.h<br />NYSAppStorePay.m</td>
 </tr>
 						</tbody></table></div>
 					
 
                     
-					
-					<div class="section section-overview">
-						<a title="Overview" name="overview"></a>
-						<h2 class="subtitle subtitle-overview">Overview</h2>
-						<p>Adding the implementation file of this category to your target will
-automatically patch UINavigationController with this feature.</p>
-					</div>
-					
-					
 
 					
 					
@@ -108,12 +104,12 @@ automatically patch UINavigationController with this feature.</p>
 						
 
 						
-						
+						<h2 class="task-title">Other Methods</h2>
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/fd_fullscreenPopGestureRecognizer" title="fd_fullscreenPopGestureRecognizer"></a>
-	<h3 class="method-title"><code><a href="#//api/name/fd_fullscreenPopGestureRecognizer">&nbsp;&nbsp;fd_fullscreenPopGestureRecognizer</a></code>
+	<a name="//api/name/starBuyToAppStore:" title="starBuyToAppStore:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/starBuyToAppStore:">&ndash;&nbsp;starBuyToAppStore:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -123,14 +119,26 @@ automatically patch UINavigationController with this feature.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>The gesture recognizer that actually handles interactive pop.</p>
+				<p>点击购买</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) UIPanGestureRecognizer *fd_fullscreenPopGestureRecognizer</code></div>
+			<div class="method-subsection method-declaration"><code>- (void)starBuyToAppStore:(NSString *)<em>goodsID</em></code></div>
 
 		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>goodsID</code></th>
+						<td><p>商品id</p></td>
+					</tr>
+				
+				</table>
+			</div>
 			
 
 			
@@ -140,7 +148,7 @@ automatically patch UINavigationController with this feature.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>The gesture recognizer that actually handles interactive pop.</p>
+				<p>点击购买</p>
 			</div>
 			
 
@@ -151,15 +159,23 @@ automatically patch UINavigationController with this feature.</p>
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UINavigationController+FDFullscreenPopGesture.h</code></p>
+				<p><code class="declared-in-ref">NYSAppStorePay.h</code></p>
 			</div>
 			
 			
 		</div>
 	</div>
-</div><div class="section-method">
-	<a name="//api/name/fd_viewControllerBasedNavigationBarAppearanceEnabled" title="fd_viewControllerBasedNavigationBarAppearanceEnabled"></a>
-	<h3 class="method-title"><code><a href="#//api/name/fd_viewControllerBasedNavigationBarAppearanceEnabled">&nbsp;&nbsp;fd_viewControllerBasedNavigationBarAppearanceEnabled</a></code>
+</div>
+						</div>
+						
+
+						<a title="Extension Methods" name="task_Extension Methods"></a>
+						<h2 class="task-title">Extension Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/goodsId" title="goodsId"></a>
+	<h3 class="method-title"><code><a href="#//api/name/goodsId">&nbsp;&nbsp;goodsId</a></code>
 </h3>
 
 	<div class="method-info">
@@ -169,14 +185,12 @@ automatically patch UINavigationController with this feature.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>A view controller is able to control navigation bar&rsquo;s appearance by itself,
-rather than a global way, checking &ldquo;fd_prefersNavigationBarHidden&rdquo; property.
-Default to YES, disable it if you don&rsquo;t want so.</p>
+				<p>商品id</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL fd_viewControllerBasedNavigationBarAppearanceEnabled</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *goodsId</code></div>
 
 		    
 			
@@ -188,9 +202,7 @@ Default to YES, disable it if you don&rsquo;t want so.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>A view controller is able to control navigation bar&rsquo;s appearance by itself,
-rather than a global way, checking &ldquo;fd_prefersNavigationBarHidden&rdquo; property.
-Default to YES, disable it if you don&rsquo;t want so.</p>
+				<p>商品id</p>
 			</div>
 			
 
@@ -201,7 +213,7 @@ Default to YES, disable it if you don&rsquo;t want so.</p>
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">UINavigationController+FDFullscreenPopGesture.h</code></p>
+				<p><code class="declared-in-ref">NYSAppStorePay.m</code></p>
 			</div>
 			
 			
