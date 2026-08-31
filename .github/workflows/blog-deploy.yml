@@ -38,6 +38,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Inject Gitalk client secret (build-time only)
+        run: |
+          sed -i "s#client_secret:.*#client_secret: $GITALK_SECRET#" source/_data/keep.yml
+        env:
+          GITALK_SECRET: ${{ secrets.GITALK_SECRET }}
+
       - name: Build site
         run: |
           npx hexo clean

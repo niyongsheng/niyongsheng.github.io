@@ -231,8 +231,8 @@ comment:
     github_id: niyongsheng       # GitHub repo owner
     github_admins:    # GitHub Admins (in Array type), optional
     repository: hexo-site-comments      # Repository name to store issues
-    client_id:                      # GitHub Application Client ID (从仓库移除,如需启用另配)
-    client_secret:                  # 已泄露的历史凭据,请勿填写:见 GitHub OAuth App 重置
+    client_id: 3860c872f86a2f9ec17c   # GitHub Application Client ID (公开值)
+    client_secret:                    # 由 CI 的 GITALK_SECRET 注入,勿提交真实值
     proxy:            # GitHub oauth request reverse proxy for CORS
 
   # Twikoo
