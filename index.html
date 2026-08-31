@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="NYS Blog">
+    <meta name="description" content="我思，故我在。—— 笛卡尔">
+    <meta name="author" content="Nico">
+    
+    <title>
+        
+        思考的咸鱼
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+        <link rel="shortcut icon" href="/images/blog_favicon.ico">
+    
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    
+    <script>
+        (function () {
+            let theme = localStorage.getItem('KEEP-THEME-STATUS');
+            let classname = "";
+            if (!theme || (JSON.parse(theme).isAutoTheme)){
+                classname = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? "dark-mode" : "light-mode";
+            }
+            else{
+                classname = JSON.parse(theme).isDark ? "dark-mode" : "light-mode";
+            }
+            document.documentElement.classList.add(classname);
+        })();
+    </script>
+    <script class="keep-theme-configurations">
+    const KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"niyongsheng.github.io","root":"/","language":"en"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#0060F9","title":"思考的咸鱼","author":"Nico","avatar":"https://avatars.githubusercontent.com/u/28373699?s=64&v=4","logo":"/images/salted_fish.png","favicon":"/images/blog_favicon.ico"},"menu":{"home":"/","archives":"/archives"},"first_screen":{"enable":true,"background_img":"/images/bg-custom.svg","background_img_dark":"/images/bg-custom.svg","description":"我思，故我在。—— 笛卡尔","hitokoto":false},"social_contact":{"enable":true,"links":{"github":"https://github.com/niyongsheng","weixin":null,"qq":null,"weibo":"https://weibo.com/u/7317805089","zhihu":null,"twitter":null,"x":null,"facebook":null,"email":"niyongsheng@outlook.com"}},"scroll":{"progress_bar":true,"percent":true,"hide_header":true},"home":{"announcement":null,"category":true,"tag":true,"post_datetime":"created"},"post":{"author_badge":{"enable":true,"level_badge":false,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":true,"reward":{"enable":false,"img_link":null,"text":null}},"code_block":{"tools":{"enable":false,"style":"default"},"highlight_theme":"default"},"toc":{"enable":false,"number":false,"expand_all":false,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":true,"preload":false},"comment":{"enable":true,"use":"giscus","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":"niyongsheng","github_admins":null,"repository":"hexo-site-comments","client_id":"3860c872f86a2f9ec17c","client_secret":"02f01c020af0bae22be8f355cd4c580c61242f1a","proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.21"},"waline":{"server_url":null,"reaction":false,"version":2},"giscus":{"repo":"niyongsheng/hexo-site-comments","repo_id":"R_kgDOLoOD2w","category":"Announcements","category_id":"DIC_kwDOLoOD284CeY-b","reactions_enabled":true},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":true},"lazyload":{"enable":false},"cdn":{"enable":false,"provider":"cdnjs"},"pjax":{"enable":false},"footer":{"since":2020,"word_count":false,"icp":{"enable":false,"record_code":null,"url":"https://beian.miit.gov.cn"},"site_deploy":{"enable":false,"provider":"github","url":null},"shields_style":{"enable":false,"custom":[{"link_url":null,"img_url":null}]}},"inject":{"enable":false,"css":[null],"js":[null]},"root":"","search_db_path":"keep-search.json","source_data":{},"version":"4.3.0"}
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
+    KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original post title","author":"Original post author","link":"Original post link"}
+  </script>
+<meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/rss/atom.xml" title="思考的咸鱼" type="application/atom+xml">
+</head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+</div>
+
+
+
+<main class="page-container border-box">
+    <!-- home first screen  -->
+    
+        
+<div class="first-screen-container border-box flex-center fade-in-down-animation">
+    <div class="first-screen-content border-box">
+        <div class="top-placeholder border-box"></div>
+
+        <div class="middle-placeholder border-box">
+            
+                <div class="description border-box">
+                    
+                        
+                            
+                                <div class="desc-item border-box"><span class="desc">我思，故我在。—— 笛卡尔</span><span class="cursor">｜</span></div>
+                            
+                        
+                    
+                </div>
+            
+
+            
+        </div>
+
+        <div class="bottom-placeholder border-box">
+            
+                <div class="sc-icon-list border-box">
+                    <!-- fontawesome icons -->
+                    
+                        
+                            
+                            <div class="tooltip sc-icon-item "
+                                 data-tooltip-content="GitHub"
+                                 
+                                 
+                            >
+                                
+                                    
+                                    
+                                        <a target="_blank" href="https://github.com/niyongsheng">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            
+                            <div class="tooltip sc-icon-item "
+                                 data-tooltip-content="Weibo"
+                                 
+                                 
+                            >
+                                
+                                    
+                                    
+                                        <a target="_blank" href="https://weibo.com/u/7317805089">
+                                            <i class="fab fa-weibo"></i>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            
+                            <div class="tooltip sc-icon-item "
+                                 data-tooltip-content="Email"
+                                 
+                                 
+                            >
+                                
+                                    <a href="mailto:niyongsheng@outlook.com">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                
+                            </div>
+                        
+                    
+
+                    <!-- custom svg icons -->
+                    
+                    
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- page content -->
+    <div class="page-main-content border-box is-home">
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper transparent-1">
+
+    <div class="border-box header-content has-first-screen">
+        <div class="left flex-start border-box">
+            
+                <a class="logo-image border-box" href="/">
+                    <img src="/images/salted_fish.png">
+                </a>
+            
+            <a class="site-name border-box" href="/">
+               思考的咸鱼
+            </a>
+        </div>
+
+        <div class="right border-box">
+            <div class="pc border-box">
+                <ul class="menu-list border-box">
+                    
+                        
+                        <li class="menu-item flex-start border-box active">
+                            <a class="menu-text-color border-box" href="/">
+                                
+                                HOME
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/archives">
+                                
+                                ARCHIVES
+                                
+                            </a>
+                            
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="menu-text-color fas search fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile border-box flex-start">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list border-box">
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu active">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/">
+                            
+                            HOME
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/archives">
+                            
+                            ARCHIVES
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle border-box">
+
+            <div class="main-content border-box">
+                
+
+                    <div class="home-content-container fade-in-down-animation">
+    
+    <ul class="home-post-list border-box">
+        
+            <li class="home-post-item">
+
+                
+
+                <div class="home-post-item-bottom border-box">
+                    
+                    <h3 class="home-post-title border-box">
+                        <a href="/2026/05/26/%E6%BA%AF/">
+                            溯
+                        </a>
+                    </h3>
+
+                    <div class="home-post-content keep-markdown-body">
+                        
+                            
+溯洄从之，道阻且长。 —— 《诗·秦风·蒹葭》
+
+第一节山顶的雪融化的时候，世界很响。
+石头在裂开，风在吹，松果从树上啪嗒啪嗒地掉下来。在这所有的热闹里，最轻的一个声音，是「溯」掉进石缝里的声音。
+那时候它还不是一条河，只是一个小小的、亮晶晶的水滴...
+                        
+                    </div>
+
+                    
+
+<div class="post-meta-info-container border-box home">
+    <div class="post-meta-info border-box">
+        
+            <span class="meta-info-item border-box">
+                <i class="icon fa-solid fa-file-circle-plus"></i>&nbsp;<span class="home-post-history"
+                                                                                data-updated="Tue May 26 2026 15:00:25 GMT+0000"
+                >2026-05-26 15:00:25</span>
+            </span>
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+        <a class="home-read-more" href="/2026/05/26/%E6%BA%AF/">Read more&nbsp;<i class="icon fas fa-angle-right"></i></a>
+    
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-post-item">
+
+                
+
+                <div class="home-post-item-bottom border-box">
+                    
+                    <h3 class="home-post-title border-box">
+                        <a href="/2026/03/01/%E5%AD%98%E5%9C%A8%E4%B8%8E%E6%9C%AC%E8%B4%A8%E5%8D%B1%E6%9C%BA/">
+                            存在与本质危机
+                        </a>
+                    </h3>
+
+                    <div class="home-post-content keep-markdown-body">
+                        
+                            一直以来在我的精神世界里，同时构建着两座大厦。一座是以实证和数理逻辑筑成的科学，它严肃、精确，为我提供丈量世界的方法论。一座是以体验和感受筑成的信仰，它深邃、安静，为我提供温暖开放的世界观。我以为只要足够勤勉、自省，总能在这两者之间架起一座回廊。然而...
+                        
+                    </div>
+
+                    
+
+<div class="post-meta-info-container border-box home">
+    <div class="post-meta-info border-box">
+        
+            <span class="meta-info-item border-box">
+                <i class="icon fa-solid fa-file-circle-plus"></i>&nbsp;<span class="home-post-history"
+                                                                                data-updated="Sun Mar 01 2026 18:32:01 GMT+0000"
+                >2026-03-01 18:32:01</span>
+            </span>
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+        <a class="home-read-more" href="/2026/03/01/%E5%AD%98%E5%9C%A8%E4%B8%8E%E6%9C%AC%E8%B4%A8%E5%8D%B1%E6%9C%BA/">Read more&nbsp;<i class="icon fas fa-angle-right"></i></a>
+    
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-post-item">
+
+                
+
+                <div class="home-post-item-bottom border-box">
+                    
+                    <h3 class="home-post-title border-box">
+                        <a href="/2026/02/13/I%E2%80%982025/">
+                            I&#39;2025
+                        </a>
+                    </h3>
+
+                    <div class="home-post-content keep-markdown-body">
+                        
+                            今年的年终总结迟迟没有动笔。虽然这些内容除了 AI 大概率没人会看，但还是希望简单记录一下自己阶段性的思考和变化。
+工作上，这一年算是彻底成为了一名自由职业者。前半年主要收尾了几个更早开始的小项目，以及一个智能钥匙柜项目。其余大部分时间都投入在一个 ...
+                        
+                    </div>
+
+                    
+
+<div class="post-meta-info-container border-box home">
+    <div class="post-meta-info border-box">
+        
+            <span class="meta-info-item border-box">
+                <i class="icon fa-solid fa-file-circle-plus"></i>&nbsp;<span class="home-post-history"
+                                                                                data-updated="Fri Feb 13 2026 17:54:36 GMT+0000"
+                >2026-02-13 17:54:36</span>
+            </span>
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+        <a class="home-read-more" href="/2026/02/13/I%E2%80%982025/">Read more&nbsp;<i class="icon fas fa-angle-right"></i></a>
+    
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-post-item">
+
+                
+
+                <div class="home-post-item-bottom border-box">
+                    
+                    <h3 class="home-post-title border-box">
+                        <a href="/2025/06/11/Alignment/">
+                            Alignment
+                        </a>
+                    </h3>
+
+                    <div class="home-post-content keep-markdown-body">
+                        
+                            与祂对齐在喧嚣止息的清晨，我跪下，不是敬虔的姿态，而是因无法再靠自己站立。
+我曾奔跑，步履不停，却错过了祂的脚步。我曾规划，字斟句酌，却没问祂是否同行。
+祂不是风暴中的吶喊，祂是晨光里未说出的安慰；祂不是剧场里的灯火，祂是无人处，那无声的真实。
+没有...
+                        
+                    </div>
+
+                    
+
+<div class="post-meta-info-container border-box home">
+    <div class="post-meta-info border-box">
+        
+            <span class="meta-info-item border-box">
+                <i class="icon fa-solid fa-file-circle-plus"></i>&nbsp;<span class="home-post-history"
+                                                                                data-updated="Wed Jun 11 2025 08:35:02 GMT+0000"
+                >2025-06-11 08:35:02</span>
+            </span>
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+        <a class="home-read-more" href="/2025/06/11/Alignment/">Read more&nbsp;<i class="icon fas fa-angle-right"></i></a>
+    
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-post-item">
+
+                
+
+                <div class="home-post-item-bottom border-box">
+                    
+                    <h3 class="home-post-title border-box">
+                        <a href="/2025/01/10/I%E2%80%992024/">
+                            I&#39;2024
+                        </a>
+                    </h3>
+
+                    <div class="home-post-content keep-markdown-body">
+                        
+                            
+ 写于：2025年1月10日 14时
+
+一年又一年，今天是在贸易公司坐班的最后一天，接下来将以兼职的形式继续营销工作。年中离开了上家网络公司也暂别了开发岗，一方面有点职业倦怠，另一方面自己也想调整一下职业方向。休息了两个多月的时间，偶遇前前前同事，...
+                        
+                    </div>
+
+                    
+
+<div class="post-meta-info-container border-box home">
+    <div class="post-meta-info border-box">
+        
+            <span class="meta-info-item border-box">
+                <i class="icon fa-solid fa-file-circle-plus"></i>&nbsp;<span class="home-post-history"
+                                                                                data-updated="Fri Jan 10 2025 09:51:20 GMT+0000"
+                >2025-01-10 09:51:20</span>
+            </span>
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+        <a class="home-read-more" href="/2025/01/10/I%E2%80%992024/">Read more&nbsp;<i class="icon fas fa-angle-right"></i></a>
+    
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-post-item">
+
+                
+
+                <div class="home-post-item-bottom border-box">
+                    
+                    <h3 class="home-post-title border-box">
+                        <a href="/2024/02/07/I%E2%80%992023/">
+                            I’2023
+                        </a>
+                    </h3>
+
+                    <div class="home-post-content keep-markdown-body">
+                        
+                            
+写于：2024年2月7日 16时
+
+极近农历新年的午后最后一个工作日的格子间里，commit完新版本代码后打算写下过去一年的感想。给gpt3提供了读书笔记和零碎的备忘录信息后，LLM给我生成的几个版本都没能让我满意，看来OpenAI还得继续迭代，也...
+                        
+                    </div>
+
+                    
+
+<div class="post-meta-info-container border-box home">
+    <div class="post-meta-info border-box">
+        
+            <span class="meta-info-item border-box">
+                <i class="icon fa-solid fa-file-circle-plus"></i>&nbsp;<span class="home-post-history"
+                                                                                data-updated="Wed Feb 07 2024 16:56:05 GMT+0000"
+                >2024-02-07 16:56:05</span>
+            </span>
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+        <a class="home-read-more" href="/2024/02/07/I%E2%80%992023/">Read more&nbsp;<i class="icon fas fa-angle-right"></i></a>
+    
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-post-item">
+
+                
+
+                <div class="home-post-item-bottom border-box">
+                    
+                    <h3 class="home-post-title border-box">
+                        <a href="/2021/11/29/Framework/">
+                            Framework
+                        </a>
+                    </h3>
+
+                    <div class="home-post-content keep-markdown-body">
+                        
+                            
+Opensource projects on GitHub by NYS
+
+
+JAVA
+SmartPacker (智能装箱算法，开发中...)
+
+VUE
+luck_draw (auto draw web app/Vue抽奖)
+
+IOS
+NYSKit...
+                        
+                    </div>
+
+                    
+
+<div class="post-meta-info-container border-box home">
+    <div class="post-meta-info border-box">
+        
+            <span class="meta-info-item border-box">
+                <i class="icon fa-solid fa-file-circle-plus"></i>&nbsp;<span class="home-post-history"
+                                                                                data-updated="Mon Nov 29 2021 17:50:00 GMT+0000"
+                >2021-11-29 17:50:00</span>
+            </span>
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+        <a class="home-read-more" href="/2021/11/29/Framework/">Read more&nbsp;<i class="icon fas fa-angle-right"></i></a>
+    
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-post-item">
+
+                
+
+                <div class="home-post-item-bottom border-box">
+                    
+                    <h3 class="home-post-title border-box">
+                        <a href="/2020/11/01/%E8%8D%90%E7%89%A9%E5%BF%97/">
+                            荐物志
+                        </a>
+                    </h3>
+
+                    <div class="home-post-content keep-markdown-body">
+                        
+                            
+君子生非异也，善假于物也。—— 荀子《劝学》
+
+Mac
+Iterm2 (插件丰富的生产力工具) ✩✩✩✩✩
+
+Notion (强大的笔记软件) ✩✩✩✩✩
+
+Sublime (万能编辑器) ✩✩✩✩✩
+
+Clipy (历史剪切板工具) ✩✩✩
+
+S...
+                        
+                    </div>
+
+                    
+
+<div class="post-meta-info-container border-box home">
+    <div class="post-meta-info border-box">
+        
+            <span class="meta-info-item border-box">
+                <i class="icon fa-solid fa-file-circle-plus"></i>&nbsp;<span class="home-post-history"
+                                                                                data-updated="Sun Nov 01 2020 12:55:09 GMT+0000"
+                >2020-11-01 12:55:09</span>
+            </span>
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+        <a class="home-read-more" href="/2020/11/01/%E8%8D%90%E7%89%A9%E5%BF%97/">Read more&nbsp;<i class="icon fas fa-angle-right"></i></a>
+    
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-post-item">
+
+                
+
+                <div class="home-post-item-bottom border-box">
+                    
+                    <h3 class="home-post-title border-box">
+                        <a href="/2020/03/22/Hexo-Keep/">
+                            Hexo-Keep
+                        </a>
+                    </h3>
+
+                    <div class="home-post-content keep-markdown-body">
+                        
+                            Welcome to my blog by Hexo! If you want to have your own blog space, this article will teach it.
+Quick Start1.安装Hexo1$ npm in...
+                        
+                    </div>
+
+                    
+
+<div class="post-meta-info-container border-box home">
+    <div class="post-meta-info border-box">
+        
+            <span class="meta-info-item border-box">
+                <i class="icon fa-solid fa-file-circle-plus"></i>&nbsp;<span class="home-post-history"
+                                                                                data-updated="Sun Mar 22 2020 21:22:16 GMT+0000"
+                >2020-03-22 21:22:16</span>
+            </span>
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+        <a class="home-read-more" href="/2020/03/22/Hexo-Keep/">Read more&nbsp;<i class="icon fas fa-angle-right"></i></a>
+    
+</div>
+
+                </div>
+            </li>
+        
+    </ul>
+    
+
+
+
+</div>
+
+
+                
+            </div>
+        </div>
+
+        <div class="page-main-content-bottom border-box">
+            
+<footer class="footer border-box">
+    <div class="copyright-info info-item">
+    &copy;&nbsp;<span>2020</span>&nbsp;-&nbsp;2026
+    
+            &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">Nico</a>
+        
+    </div>
+
+    <div class="theme-info info-item">
+        Powered by&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;&&nbsp;Theme&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+    </div>
+
+    
+
+    
+
+    
+</footer>
+
+        </div>
+    </div>
+
+    <!-- post tools -->
+    
+
+    <!-- side tools -->
+    <div class="side-tools">
+        <div class="side-tools-container border-box side-tools-show-handle">
+    <ul class="side-tools-list side-tools-show-handle border-box">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <!-- toggle mode -->
+        
+            <li class="tools-item tool-toggle-theme-mode flex-center">
+                <i class="fas fa-moon"></i>
+            </li>
+        
+
+        <!-- rss -->
+        
+            <li class="tools-item rss flex-center">
+                <a class="flex-center"
+                   href="/rss/atom.xml"
+                   target="_blank"
+                >
+                    <i class="fas fa-rss"></i>
+                </a>
+            </li>
+        
+
+        <!-- to bottom -->
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list border-box">
+        
+
+        
+
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+
+        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
+            <i class="arrow fas fa-arrow-up"></i>
+            <span class="percent"></span>
+        </li>
+    </ul>
+</div>
+
+    </div>
+
+    <!-- image mask -->
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    <!-- local search -->
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="Search..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- tablet toc -->
+    
+</main>
+
+
+
+
+
+
+<!-- common js -->
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/toggle-theme.js"></script>
+
+<script src="/js/code-block.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+
+<!-- local search -->
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+<!-- lazyload -->
+
+
+<div class="">
+    <!-- home page -->
+    
+        
+<script src="/js/page/home-page.js"></script>
+
+    
+
+    <!-- post page -->
+    
+
+    <!-- categories page -->
+    
+
+    <!-- links page -->
+    
+
+    <!-- photos page -->
+    
+
+    <!-- tools page -->
+    
+</div>
+
+<!-- mermaid -->
+
+
+<!-- pjax -->
+
+
+
+</body>
+</html>
